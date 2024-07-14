@@ -19,14 +19,29 @@ Today, there are many Generative AI models to choose from: Large Language Models
 45 minutes
 
 ## Learning Outcomes
-TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
+ 
+### Understanding of Generative AI Models:
+Attendees should leave with a clear understanding of what generative AI models are, how they work, and their significance in various applications.
+### Model Selection Criteria:
+Participants will learn how to choose the right model for specific tasks based on factors such as task requirements, model capabilities, and performance metrics.
+### Awareness of Model Types:
+We’ll explore different types of generative models, including Large Language Models (LLMs) like GPT-3, Small Language Models (SLMs), and multimodal models that handle text, code, and images.
+### Fine-Tuning Techniques:
+Attendees will see how fine-tuning can improve model performance and adapt it to specific use cases.
+### Evaluation and Comparison Tools:
+We’ll discuss industry-standard evaluation metrics and tools like Azure Machine Learning for accurate model measurement.
+### Real-World Case Studies:
+Examples of successful model applications will provide insights into practical deployment scenarios.
+### The Future of Generative AI:
+We’ll wrap up with thoughts on where this field is headed and its potential impact.
 
 ## Technology Used
-LLM 
-DALLE-3
-GPT 3.5 GPT 4/4v/4o
-Phi-3 
-ONNX 
+- LLM 
+- AI Studio 
+- DALLE-3
+- GPT 3.5 GPT 4/4v/4o
+- Phi-3 
+- ONNX/OLIVE 
 
 ## Session Overview 
 ### Introduction (5 min)

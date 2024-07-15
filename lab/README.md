@@ -1,4 +1,4 @@
-# Session folder
+# Labs for Phi-3 
 
 This folder contains the public facing files for the lab `LAB NAME HERE`.
 

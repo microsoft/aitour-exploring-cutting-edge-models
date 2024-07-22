@@ -9,7 +9,7 @@ This is about scenarios that reference Phi-3 ONNX, including using DirectML to a
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| 01. DirectML with AIPC   | [Code](../src/01.InferencePhi3/01.AIPC_DirectML_DEMO.ipynb) | Using DirectML to inference Phi-3 mini |
+| 01. Introduce Phi-3  | [01.Phi-3 Instruct](../src/01.InferencePhi3/01.notebooks/01.Phi3_Instruct.ipynb) <br/><br/> [02.Phi-3 Vision](../src/01.InferencePhi3/01.notebooks/02.Phi3_Vision.ipynb) <br/><br/> [03.Phi-3 vs GPT-4o](../src/01.InferencePhi3/01.notebooks/03.Phi3_VS_GPT4.ipynb) | Introduce Phi-3,including instruct and vision samples. We can compare the generation result with Phi-3 Vision and GPT-4o in OCR |
 | 02. Using iPhone to create copilot application    | [Code](../src/01.InferencePhi3/02.ios/) | Create iPhone chat apps witn Phi-3 mini |
 | 03. Create RAG App with WebGPU   | [Code](../src/01.InferencePhi3/03.chat/) | Create RAG app with WebGPU |
 

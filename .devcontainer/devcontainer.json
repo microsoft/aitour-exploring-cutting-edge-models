@@ -4,6 +4,7 @@
 	"name": "C# (.NET)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
+    "postCreateCommand": "bash ./.devcontainer/setup.sh",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
 		"ghcr.io/nikiforovall/devcontainer-features/dotnet-aspire:1": {},
@@ -19,8 +20,7 @@
 				"ms-toolsai.jupyter"
 			]
 		}
-	},
-	"postCreateCommand": "pip install -r requirements.txt"
+	}
 
 
 	// Features to add to the dev container. More info: https://containers.dev/features.

@@ -1,3 +1,4 @@
 huggingface_hub
 jupyter
-onnxruntime-genai
+onnxruntime-genai --pre
+numpy

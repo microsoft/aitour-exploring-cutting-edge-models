@@ -20,6 +20,11 @@
 				"ms-toolsai.jupyter"
 			]
 		}
+	},
+	"hostRequirements": {
+		"cpus": 32,
+		"memory": "128gb",
+		"storage": "128gb"
 	}
 
 

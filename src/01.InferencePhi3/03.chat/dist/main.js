@@ -2887,7 +2887,7 @@ const PATH_AVAILABLE = !isEmpty(path__WEBPACK_IMPORTED_MODULE_1__); // check if 
 const RUNNING_LOCALLY = FS_AVAILABLE && PATH_AVAILABLE;
 
 const __dirname = RUNNING_LOCALLY
-    ? path__WEBPACK_IMPORTED_MODULE_1__.dirname(path__WEBPACK_IMPORTED_MODULE_1__.dirname(url__WEBPACK_IMPORTED_MODULE_2__.fileURLToPath("file:///Users/lokinfey/Desktop/AOAI/SLM/Phi-3-mini-webgpu/chat/node_modules/@xenova/transformers/src/env.js")))
+    ? path__WEBPACK_IMPORTED_MODULE_1__.dirname(path__WEBPACK_IMPORTED_MODULE_1__.dirname(url__WEBPACK_IMPORTED_MODULE_2__.fileURLToPath("file:///workspaces/aitour-exploring-cutting-edge-models/src/01.InferencePhi3/03.chat/node_modules/@xenova/transformers/src/env.js")))
     : './';
 
 // Only used for environments with access to file system
@@ -31046,6 +31046,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+onnxruntime_web_webgpu__WEBPACK_IMPORTED_MODULE_0__.env.wasm.numThreads = 1;
+onnxruntime_web_webgpu__WEBPACK_IMPORTED_MODULE_0__.env.wasm.simd = true;
+onnxruntime_web_webgpu__WEBPACK_IMPORTED_MODULE_0__.env.wasm.wasmPaths = document.location.pathname.replace('index.html', '') + 'dist/';
 
 class Phi3SLM {
 
@@ -31195,7 +31198,7 @@ class Phi3SLM {
         }
         this.output_tokens = [];
     }
-xe
+
     //
     // poor mens argmax
     //xe
@@ -31588,12 +31591,12 @@ document.getElementById('send-button').addEventListener('click', async function(
       try {
           const answer = await generateAnswer(question);
 
-          // const summary = await generativeSummary(answer);
+          const summary = await generativeSummary(answer);
 
 
           const botMessage = document.createElement('div');
           botMessage.className = 'message answer';
-          botMessage.textContent = answer;
+          botMessage.textContent = summary;
           chatContainer.appendChild(botMessage);
 
 

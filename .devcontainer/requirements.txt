@@ -3,3 +3,4 @@ jupyter
 onnxruntime-genai --pre
 numpy
 matplotlib
+openai

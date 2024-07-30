@@ -12,9 +12,16 @@ export class RAG{
     extractor = undefined;
     phi3_slm = undefined;
     tokenizer = undefined;
+    status = false;
 
     constructor(){
         this.phi3_slm = new Phi3SLM();
+
+        env.allowLocalModels = true;
+
+        env.localModelPath = './models/';
+
+        env.allowRemoteModels = false;
     }
     //
     // Init Phi-3 Model
@@ -26,9 +33,18 @@ export class RAG{
         this.tokenizer = await AutoTokenizer.from_pretrained("Microsoft/Phi-3-mini-4k-instruct-onnx-web");
 
 
-         await this.phi3_slm.loadONNX();
 
-        await this.load('Xenova/jina-embeddings-v2-base-en');
+
+        await this.phi3_slm.loadONNX();
+
+
+
+
+        // env.localModelPath = './models/';
+        // await this.load('/Xenova/jina-embeddings-v2-base-en').then(()=>{
+        //     this.status = true;
+        //     return this.status;
+        // });
         // await this.phi3_slm.loadONNX();
     }
     //
@@ -56,6 +72,16 @@ export class RAG{
 
         let sim_result = [];
 
+        if(this.extractor == undefined)
+        {
+
+            env.localModelPath = './models/';
+
+            this.extractor = await pipeline('feature-extraction', 'Xenova/jina-embeddings-v2-base-en',
+                { quantized: false } 
+            );
+        }
+
         for(const content of kbContents) {
             const output = await this.extractor([question, content], { pooling: 'mean' });
             const sim = cos_sim(output[0].data, output[1].data);
@@ -71,6 +97,7 @@ export class RAG{
         answer = sim_result[0].content;
 
         return answer;
+        
     }
     //
     // Generate Summary Content

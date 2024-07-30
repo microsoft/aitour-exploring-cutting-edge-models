@@ -31071,9 +31071,9 @@ class Phi3SLM {
     //https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/config.json
     phi3_path = "models/Microsoft/Phi-3-mini-4k-instruct-onnx-web/";
     phi3_onnx_data = "model_q4f16.onnx_data";
-    onnx_model_path = this.phi3_path + "onnx/model_q4f16.onnx"; //'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx';//this.phi3_path + "onnx/model_q4f16.onnx";
-    onnx_model_external_data_path = this.phi3_path + "onnx/model_q4f16.onnx_data";//'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx_data'; 
-    onnx_config_path = this.phi3_path + "config.json";  //'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/config.json'; //this.phi3_path + "config.json";
+    onnx_model_path =  'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx'; //this.phi3_path + "onnx/model_q4f16.onnx"; //'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx';//this.phi3_path + "onnx/model_q4f16.onnx";
+    onnx_model_external_data_path = 'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx_data'; //this.phi3_path + "onnx/model_q4f16.onnx_data";//'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/onnx/model_q4f16.onnx_data'; 
+    onnx_config_path = 'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/config.json'; //this.phi3_path + "config.json";  //'https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web/resolve/main/config.json'; //this.phi3_path + "config.json";
 
     constructor() {
 
@@ -31098,7 +31098,7 @@ class Phi3SLM {
 
         // load onnx model
         const model_bytes = await this.fetchAndCache(this.onnx_model_path);
-        const externaldata = await this.fetchAndCache(this.onnx_model_external_data_path);
+        const externaldata = ( true)?await this.fetchAndCache(this.onnx_model_external_data_path):0;
         let modelSize = model_bytes.byteLength;
         if (externaldata) {
             modelSize += externaldata.byteLength;
@@ -31313,7 +31313,7 @@ class RAG{
         this.tokenizer = await _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.AutoTokenizer.from_pretrained("Microsoft/Phi-3-mini-4k-instruct-onnx-web");
 
 
-         await this.phi3_slm.loadONNX();
+        await this.phi3_slm.loadONNX();
 
         await this.load('Xenova/jina-embeddings-v2-base-en');
         // await this.phi3_slm.loadONNX();

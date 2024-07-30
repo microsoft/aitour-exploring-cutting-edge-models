@@ -3,6 +3,7 @@ src/Models/
 src/ort/
 ort/
 Models/
+node_modules/
 
 [Dd]ebug/
 [Dd]ebugPublic/

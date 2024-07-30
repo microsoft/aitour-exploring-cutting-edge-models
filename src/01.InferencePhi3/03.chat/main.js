@@ -9,6 +9,8 @@ const fileContents = [];
 const kbContents = [];
 let rag;
 
+let status =false;
+
 
 document.getElementById('send-button').addEventListener('click', async function() {
   const inputBox = document.querySelector('.input-box');
@@ -164,16 +166,20 @@ document.getElementById('upload-form').addEventListener('submit', async function
 
   document.getElementById('progress-container').display = 'block';
 
-  var embeddd = await getEmbeddings(fileContents[0]);
 
-  console.log('11234'+embeddd);
-
-
+  
   document.getElementById('overlay').style.display = 'none';
   document.getElementById('addMarkdown').textContent = '+';
 
   document.getElementById('chat-message').display = 'block';
   document.getElementById('progress-container').display = 'none';
+
+
+    
+  var embeddd = await getEmbeddings(fileContents[0]);
+  
+  console.log('11234'+embeddd);
+
 
 });
 
@@ -219,6 +225,7 @@ async function Init(hasFP16) {
     }
 
     rag = new RAG();
+    await rag.load('Xenova/jina-embeddings-v2-base-en');
     await rag.InitPhi3SLM();
     // await rag.loadONNX();
   } catch (error) {

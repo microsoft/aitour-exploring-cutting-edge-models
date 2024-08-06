@@ -1,5 +1,9 @@
 # BRK453 Exploring cutting-edge models: LLMs, SLMs, local development and more
 
+
+[![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-kinfeylo)
+
+
 ![Title](./images/explorecuttingedge.png)
 
 ## Session Desciption

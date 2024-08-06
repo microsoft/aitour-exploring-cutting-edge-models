@@ -97,7 +97,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 | AI Toolkit for VsCode | [AI Toolkit](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) | AI Toolkit for VS Code streamlines generative AI app development by integrating tools and models from Azure AI Studio and Hugging Face. Browse and download public models, fine-tune, test, and use them in your Windows applications.|
 | GitHub Model Catalog | [GitHub Model Catalog](https://github.com/marketplace/models) | Models Try, test, and deploy from a wide range of model types, sizes, and specializations.| 
 
-## Evaluating AI Models with Benchmarks and Azure AI Tools
+## Fine-Tuning
 
 | Requirement                        | Start with                            | Why?                                                                                                                                                                                                        |
 | ---------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -122,7 +122,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 | MMLU                | MMLU ((Massive Multitask Language Understanding) evaluates how well the LLM can multitask                                                                              | [https://github.com/hendrycks/test](https://github.com/hendrycks/test)               |
 | KILT                | Library for Knowledge intestive language tasks                                                                                                                         | [https://github.com/facebookresearch/KILT](https://github.com/facebookresearch/KILT) |
 
-## Frameworks 
+## Evaluation Frameworks 
 
 | Frameworks / Platforms                 | Description                                                                                                                                                                                                                                                    | Tutorials/lessons                                                                                                                            | Reference                                       |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |

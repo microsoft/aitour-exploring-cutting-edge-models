@@ -93,6 +93,20 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 
 ## Evaluating AI Models with Benchmarks and Azure AI Tools
 
+| Requirement                        | Start with                            | Why?                                                                                                                                                                                                        |
+| ---------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Steer model with a few examples    | Prompt engineering                    | Easy to craft and quick experimentation, very low barrier to entry                                                                                                                                          |
+| Simple & quick implementation      | Prompt engineering, RAG               | Easy tooling with Azure OpenAI on Your Data, PromptFlow, LangChain                                                                                                                                          |
+| Improve model relevancy            | RAG                                   | Retrieve relevant information from your own datasets to insert into prompts                                                                                                                                 |
+| Up to date information             | RAG                                   | Query up to date information from your own databases, search engineers, etc. to insert into prompts                                                                                                         |
+| Factual grounding                  | RAG                                   | Ability to reference & inspect retrieved data                                                                                                                                                               |
+| Optimize for specific tasks        | Fine tuning                           | Fine tuning is great at steering your model for specific tasks like summarizing data in a specific format                                                                                                   |
+| Instructions won't fit in a prompt | Fine tuning                           | Fine tuning moves few-shot examples into the training step but increases the quantity of examples are needed to train.                                                                                      |
+| Lower costs                        | It depends                            | ⚠️Prompt engineering & RAG have lower upfront costs but long prompts are more expensive; training for FT is expensive but may cut prompt length. The choice will always depend on the use case & data.      |
+| Complex, novel data or domains     | Prompt Engineering + RAG+ Fine Tuning | ⚠️ This is a high risk area. Fine tuning can retrain the model to recognize new domains, but RAG is needed to avoid plausible confabulations. Make sure customers don't try to retrain for unapproved uses! |
+
+### Benchmark Tools and Resources
+
 | Benchmarks          | Description                                                                                                                                                            | Reference URL                                                                        |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | GLUE Benchmark      | GLUE (General Language Understanding Evaluation) benchmark provides a standardized set of diverse NLP tasks to evaluate the effectiveness of different language models | [https://gluebenchmark.com/](https://gluebenchmark.com/)                             |

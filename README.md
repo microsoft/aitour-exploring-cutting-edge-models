@@ -1,13 +1,6 @@
-To help prepare content for AI Tour, please use this template repository for organizing your sessions and preparing the content for future presentors.
-1. Update this readme with the todo's listed below
-2. The src folder has been created for all development tasks when creating this session
-3. The Lab folder is in-person and async participation with content, please update this folder with instructions for participants to follow along.
-4. The Presenter Notes folder is the train the trainer section. Here add any slide decks, demo videos, and other content as needed. This page has a rough layout to provide ideas but can be edited as needed.
-5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
-
-
 # BRK453 Exploring cutting-edge models: LLMs, SLMs, local development and more
 
+![Title](./images/explorecuttingedge.png)
 
 ## Session Desciption
 Today, there are many Generative AI models to choose from: Large Language Models (LLMs), Small Language Models (SLMs), proprietary models, open models, models in the cloud, models on devices, text models, code models, image models, and multimodal models. In this session, we'll provide guidance to help you choose the right model to fit your needs, and tools you can use to evaluate and compare models for your specific tasks.
@@ -29,21 +22,22 @@ We’ll explore different types of generative models, including Large Language M
 ### Fine-Tuning Techniques:
 Attendees will see how fine-tuning can improve model performance and adapt it to specific use cases.
 ### Evaluation and Comparison Tools:
-We’ll discuss industry-standard evaluation metrics and tools like Azure Machine Learning for accurate model measurement.
+We’ll discuss industry-standard evaluation metrics and tools like Azure AI Studio for accurate model measurement.
 ### Real-World Case Studies:
 Examples of successful model applications will provide insights into practical deployment scenarios.
 ### The Future of Generative AI:
 We’ll wrap up with thoughts on where this field is headed and its potential impact.
 
 ## Technology Used
-- LLM 
-- AI Studio 
-- DALLE-3
-- GPT 3.5 GPT 4/4v/4o
-- Phi-3 
-- ONNX/OLIVE 
+- LLMs, SLMs 
+- AI Studio, Azure Model Catalog, GitHub Model Catalog 
+- LLMs - GPT 3.5 GPT 4/4v/4o
+- SLMs - Phi-3 
+- ONNX/OLIVE
+- Windows AI PC SDK 
 
-## Session Overview 
+## Session Overview
+
 ### Introduction (5 min)
 - Brief overview of Generative AI models
 - Importance of choosing the right model for specific tasks
@@ -55,7 +49,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Proprietary vs. Open Models
 - Cloud-based vs. On-device Models
 - Text, Code, Image, and Multimodal Models
-- DEMO- Inference Phi-3-mini-instruct & Phi-3-vision( CopilotPC , iPhone) (2 min)
+- DEMO- Inference Phi-3-mini-instruct & Phi-3-vision (CopilotPC , iPhone) (2 min)
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities
@@ -82,7 +76,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Open floor for questions and discussion
 
 
-## Additional Resources and Continued Learning
+## Session Resources and Continued Learning
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|

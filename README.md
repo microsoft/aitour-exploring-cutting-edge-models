@@ -49,14 +49,14 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Proprietary vs. Open Models
 - Cloud-based vs. On-device Models
 - Text, Code, Image, and Multimodal Models
-- DEMO- Inference Phi-3-mini-instruct & Phi-3-vision (CopilotPC , iPhone) (2 min)
+- [**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (CopilotPC , iPhone) (2 min)](/src/README.md)
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities
 - Performance metrics and evaluation methods
 - Iterative refinement and validation processes
 - Fine-tuning options for model improvement
-- DEMO - Phi-3 Fine-tuning (5 min)
+- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/README.md)
 
 ### Tools for Model Evaluation and Comparison ( 5-8 min)
 - Azure Machine Learning for model accuracy measurement
@@ -66,7 +66,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 ### Case Studies (8-10 min)
 - Examples of successful model applications
 - Lessons learned from model deployment and usage
-- DEMO - Phi-3 RAG (5 min)
+- [**DEMO - Phi-3 RAG** (5 min)](/src/README.md)
 
 ### Conclusion (3 min)
 - Recap of key points

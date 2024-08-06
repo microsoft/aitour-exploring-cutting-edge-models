@@ -6,14 +6,14 @@ To help prepare content for AI Tour, please use this template repository for org
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
 
 
-# Exploring cutting-edge models: LLMs, SLMs, local development and more
+# BRK453 Exploring cutting-edge models: LLMs, SLMs, local development and more
 
-This repo is intended as a template for Microsoft AI Tour repositories
 
 ## Session Desciption
+Today, there are many Generative AI models to choose from: Large Language Models (LLMs), Small Language Models (SLMs), proprietary models, open models, models in the cloud, models on devices, text models, code models, image models, and multimodal models. In this session, we'll provide guidance to help you choose the right model to fit your needs, and tools you can use to evaluate and compare models for your specific tasks.
 
 ### Breakout Abstract:
-Today, there are many Generative AI models to choose from: Large Language Models (LLMs), Small Language Models (SLMs), proprietary models, open models, models in the cloud, models on devices, text models, code models, image models, and multimodal models. In this session, we'll provide guidance to help you choose the right model to fit your needs, and tools you can use to evaluate and compare models for your specific tasks.
+There are many Generative AI models: LLMs, SLMs, proprietary, open, cloud-based, on-device, text, code, image, and multimodal. Learn how to choose the right model for your needs and about tools to evaluate and compare models for specific tasks.
  
 ### Duration: 
 45 minutes
@@ -87,8 +87,13 @@ TODO: If you would like to link the user to further learning, please enter that 
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
-| Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
+| Phi-3 CookBook  | [Link 1](https://aka.ms/phi-3cookbook) | Learn more about Phi-3 samples, models and deployments |
+| Windows AI PC and Copilot SDK  | [Link 2](https://aka.ms/wcr) | Use powerful AI APIs with Windows Copilot Library|
+| ONNX Runtime  | [Link 3](https://onnxruntime.ai/) | Accelerated Mobile Machine Learning Production-grade AI engine to speed up training and inferencing in your existing technology stack.|
+| Windows AI PC and Copilot SDK  | [Link 4](https://aka.ms/wcr) | Use powerful AI APIs with Windows Copilot Library|
+| GitHub Model Catalog | [Link 5](https://github.com/marketplace/models) | Models Try, test, and deploy from a wide range of model types, sizes, and specializations.|
+
+
 
 ## Content Owners
 

@@ -49,7 +49,12 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Proprietary vs. Open Models
 - Cloud-based vs. On-device Models
 - Text, Code, Image, and Multimodal Models
-- [**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (CopilotPC , iPhone) (2 min)](/src/README.md)
+ 
+[**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (2 min)](/src/README.md) 
+- [Notebooks](/src/01.InferencePhi3/01.notebooks/)
+- [CopilotPC](/src/01.InferencePhi3/03.chat/README.md)
+- [iPhone](/src/01.InferencePhi3/02.ios/README.md) 
+
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities

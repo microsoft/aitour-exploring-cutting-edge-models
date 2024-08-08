@@ -25,7 +25,29 @@ Required Environment:
 - Firefox Nightly.
 
 ### Enable WebGPU:
-- In Chrome/Microsoft Edge, enable the `chrome://flags/#enable-unsafe-webgpu` flag.
+
+- In Chrome/Microsoft Edge 
+
+Enable the `chrome://flags/#enable-unsafe-webgpu` flag.
+
+#### Open Your Browser:
+Launch Google Chrome or Microsoft Edge.
+
+#### Access the Flags Page:
+In the address bar, type `chrome://flags` and press Enter.
+
+#### Search for the Flag:
+In the search box at the top of the page, type 'enable-unsafe-webgpu'
+
+#### Enable the Flag:
+Find the #enable-unsafe-webgpu flag in the list of results.
+
+Click the dropdown menu next to it and select Enabled.
+
+#### Restart Your Browser:
+
+After enabling the flag, you’ll need to restart your browser for the changes to take effect. Click the Relaunch button that appears at the bottom of the page.
+
 - For Linux, launch the browser with `--enable-features=Vulkan`.
 - Safari 18 (macOS 15) has WebGPU enabled by default.
 - In Firefox Nightly, enter about:config in the address bar and `set dom.webgpu.enabled to true`.

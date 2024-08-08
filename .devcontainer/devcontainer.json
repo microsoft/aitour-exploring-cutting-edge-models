@@ -19,7 +19,11 @@
 				"ms-python.python",
 				"ms-toolsai.jupyter",
 				"vscode.markdown.preview.editor"
-			]
+			],
+			"settings": {"workbench.editorAssociations": {
+					"*.md": "vscode.markdown.preview.editor"
+				}
+			}
 		}
 	},
 	"hostRequirements": {

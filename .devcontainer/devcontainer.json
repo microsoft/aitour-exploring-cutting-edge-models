@@ -18,8 +18,7 @@
 				"ms-dotnettools.vscode-dotnet-pack",
 				"ms-python.python",
 				"ms-toolsai.jupyter",
-				"workbench.editorAssociations": {
-            "*.md": "vscode.markdown.preview.editor"
+				"vscode.markdown.preview.editor"
 			]
 		}
 	},

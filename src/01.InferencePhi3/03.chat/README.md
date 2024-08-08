@@ -83,5 +83,14 @@ If your demo involves a web server, Codespaces will provide a URL to access it. 
 **Note:** The model needs to be cached in the browser, so it may take some time to load. 
 
 ### RAG Demo
-Upload the markdown file `intro_rag.md` to complete the RAG solution. If using codespaces you can download the file located in `01.InferencePhi3/docs/`.
+Upload the markdown file `intro_rag.md` to complete the RAG solution. If using codespaces you can download the file located in `01.InferencePhi3/docs/`
+
+### Select Your File:
+Click on the button that says “Choose File” to pick the document you want to upload.
+
+### Upload the Document:
+After selecting your file, click the “Upload” button to load your document for RAG (Retrieval-Augmented Generation).
+
+### Start Your Chat:
+Once the document is uploaded, you can start a chat session using RAG based on the content of your document.
 

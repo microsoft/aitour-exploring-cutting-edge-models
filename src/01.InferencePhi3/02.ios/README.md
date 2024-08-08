@@ -1,4 +1,4 @@
-## Steps to Run phi3-mini on iPhone
+## Steps to Run Phi-3-mini on iPhone
 
 ### A. Preparation
 - **macOS 14+:** Make sure your Mac is running macOS version 14 or higher.

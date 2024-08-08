@@ -15,7 +15,7 @@
     <ProjectReference Include="..\Phi3.Aspire.ModelService\Phi3.Aspire.ModelService.csproj" />
     <!-- <ProjectReference Include="..\Phi3.Aspire.Console\Phi3.Aspire.Console.csproj" /> -->
     <ProjectReference Include="..\Phi3.Aspire.SK.API\Phi3.Aspire.SK.API.csproj" />
-    <ProjectReference Include="..\Phi3.Aspire.SK.RAG.API\Phi3.Aspire.SK.RAG.API.csproj" />
+    <!-- <ProjectReference Include="..\Phi3.Aspire.SK.RAG.API\Phi3.Aspire.SK.RAG.API.csproj" /> -->
     <!-- <ProjectReference Include="..\Phi3.Aspire.FrontEnd\Phi3.Aspire.FrontEnd.csproj" /> -->
     <!-- <ProjectReference Include="..\Phi3.Aspire.WebApp\Phi3.Aspire.WebApp.csproj" /> -->
     <!-- <ProjectReference Include="..\Phi3.Aspire.WasmApp\Phi3.Aspire.WasmApp.csproj" /> -->

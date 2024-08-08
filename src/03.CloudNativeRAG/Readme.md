@@ -4,7 +4,7 @@
 
 ### Navigate to the Project Directory:
 ```
-cd Phi3DotNETAspire/Phi3.Aspire.AppHost
+cd 03.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost
 ```
 
 ### Build the Project:
@@ -14,8 +14,11 @@ dotnet build
 ```
 
 ### Copy Necessary Libraries:
+
+Ensure your in the .../src/03.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost folder
+
 ```
-cp -r ../../libs/* ./Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp -r ../../libs/* ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
 ```
 
 ### Set Environment Variable:

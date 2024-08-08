@@ -31299,9 +31299,16 @@ class RAG{
     extractor = undefined;
     phi3_slm = undefined;
     tokenizer = undefined;
+    status = false;
 
     constructor(){
         this.phi3_slm = new _phi3_slm_js__WEBPACK_IMPORTED_MODULE_0__.Phi3SLM();
+
+        _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.env.allowLocalModels = true;
+
+        _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.env.localModelPath = './models/';
+
+        _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.env.allowRemoteModels = false;
     }
     //
     // Init Phi-3 Model
@@ -31313,9 +31320,18 @@ class RAG{
         this.tokenizer = await _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.AutoTokenizer.from_pretrained("Microsoft/Phi-3-mini-4k-instruct-onnx-web");
 
 
+
+
         await this.phi3_slm.loadONNX();
 
-        await this.load('Xenova/jina-embeddings-v2-base-en');
+
+
+
+        // env.localModelPath = './models/';
+        // await this.load('/Xenova/jina-embeddings-v2-base-en').then(()=>{
+        //     this.status = true;
+        //     return this.status;
+        // });
         // await this.phi3_slm.loadONNX();
     }
     //
@@ -31343,6 +31359,16 @@ class RAG{
 
         let sim_result = [];
 
+        if(this.extractor == undefined)
+        {
+
+            _xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.env.localModelPath = './models/';
+
+            this.extractor = await (0,_xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.pipeline)('feature-extraction', 'Xenova/jina-embeddings-v2-base-en',
+                { quantized: false } 
+            );
+        }
+
         for(const content of kbContents) {
             const output = await this.extractor([question, content], { pooling: 'mean' });
             const sim = (0,_xenova_transformers__WEBPACK_IMPORTED_MODULE_1__.cos_sim)(output[0].data, output[1].data);
@@ -31358,6 +31384,7 @@ class RAG{
         answer = sim_result[0].content;
 
         return answer;
+        
     }
     //
     // Generate Summary Content
@@ -31574,6 +31601,8 @@ const fileContents = [];
 const kbContents = [];
 let rag;
 
+let main_status =false;
+
 
 document.getElementById('send-button').addEventListener('click', async function() {
   const inputBox = document.querySelector('.input-box');
@@ -31729,16 +31758,20 @@ document.getElementById('upload-form').addEventListener('submit', async function
 
   document.getElementById('progress-container').display = 'block';
 
-  var embeddd = await getEmbeddings(fileContents[0]);
 
-  console.log('11234'+embeddd);
-
-
+  
   document.getElementById('overlay').style.display = 'none';
   document.getElementById('addMarkdown').textContent = '+';
 
   document.getElementById('chat-message').display = 'block';
   document.getElementById('progress-container').display = 'none';
+
+
+    
+  var embeddd = await getEmbeddings(fileContents[0]);
+  
+  console.log('11234'+embeddd);
+
 
 });
 
@@ -31783,8 +31816,16 @@ async function Init(hasFP16) {
         document.getElementById('chat-message').style.display = 'none';
     }
 
+
+    document.getElementById('header').style.display = 'none';
+    document.getElementById('progress-model-container').style.display = 'block';
+
     rag = new _rag_js__WEBPACK_IMPORTED_MODULE_1__.RAG();
+    await rag.load('Xenova/jina-embeddings-v2-base-en');
     await rag.InitPhi3SLM();
+
+    document.getElementById('progress-model-container').style.display = 'none';
+    document.getElementById('header').style.display = 'block';
     // await rag.loadONNX();
   } catch (error) {
     console.log('InitError');

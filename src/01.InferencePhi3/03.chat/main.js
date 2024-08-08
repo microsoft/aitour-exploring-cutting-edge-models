@@ -224,10 +224,19 @@ async function Init(hasFP16) {
         document.getElementById('chat-message').style.display = 'none';
     }
 
+
+    // document.getElementById('header').style.display = 'none';
+    document.getElementById('progress-model-container').style.display = 'block';
+    document.getElementById('headtitle').innerHTML='Loading Model...(if you run it first time)';
+    document.getElementById('addMarkdown').style.display = 'none';
+
     rag = new RAG();
     await rag.load('Xenova/jina-embeddings-v2-base-en');
     await rag.InitPhi3SLM();
-    // await rag.loadONNX();
+
+    document.getElementById('progress-model-container').style.display = 'none';
+    document.getElementById('headtitle').innerHTML='Phi-3-mini WebGPU RAG Chatbot Demo';
+    document.getElementById('addMarkdown').style.display = 'block';
   } catch (error) {
     console.log('InitError');
   }

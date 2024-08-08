@@ -9,13 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.ModelService", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.SK.API", "Phi3.Aspire.SK.API\Phi3.Aspire.SK.API.csproj", "{AFC72906-F918-4A66-A24C-9E695D9C13FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.SK.RAG.API", "Phi3.Aspire.SK.RAG.API\Phi3.Aspire.SK.RAG.API.csproj", "{98EA78DA-60BA-46BC-8579-BA55869B9152}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.FrontEnd", "Phi3.Aspire.FrontEnd\Phi3.Aspire.FrontEnd.csproj", "{AA1DD037-5023-46E5-BDAD-B844E0FE8C67}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.AppHost", "Phi3.Aspire.AppHost\Phi3.Aspire.AppHost.csproj", "{481BF404-1794-47CD-9F73-4C71A48916AC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3.Aspire.Console", "Phi3.Aspire.Console\Phi3.Aspire.Console.csproj", "{3E10A219-6138-420A-9CDC-6AFB506EDDE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

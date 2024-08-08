@@ -166,6 +166,22 @@
             z-index: 1000;
             border-radius: 10px; /* 添加圓角 */
         }
+        .progress-model-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 110px; /* 調整高度 */
+            width: 110px; /* 調整寬度 */
+            background-color: #1877f2; /* 背景顏色藍色 */
+            color: white; /* 字體顏色白色 */
+            font-size: 12px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* 居中對齊 */
+            z-index: 1000;
+            border-radius: 10px; /* 添加圓角 */
+        }
 
         .loader {
             border: 4px solid #f3f3f3; /* Light grey */
@@ -183,9 +199,9 @@
     </style>
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="hearder">
         <div class="header-content">
-            <span>Phi-3-mini WebGPU RAG Chatbot Demo</span>
+            <span id="headtitle">Phi-3-mini WebGPU RAG Chatbot Demo</span>
         </div>
         <div id="addMarkdown" class="add-markdown">+</div>
     </div>
@@ -210,6 +226,10 @@
     </div>
     <div id="progress-container" class="progress-container" style="display: none;">
         <div class="loader"></div>
+    </div>
+    <div id="progress-model-container" class="progress-model-container" style="display: none;">
+        <div class="loader"></div><br/>
+        <div>Loading model...</div>
     </div>
 </body>
 <script type="module" src="dist/main.js"></script>

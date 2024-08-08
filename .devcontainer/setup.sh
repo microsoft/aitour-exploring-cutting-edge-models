@@ -15,3 +15,22 @@ git lfs install
 git clone https://huggingface.co/microsoft/Phi-3-vision-128k-instruct-onnx-cpu
 
 git clone https://huggingface.co/microsoft/Phi-3-mini-128k-instruct-onnx
+
+cd ../01.InferencePhi3/03.chat
+
+mkdir models
+
+cd models
+
+mkdir Microsoft
+
+mkdir Xenova
+
+cd Microsoft
+
+git clone https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx-web
+
+cd ../Xenova
+
+git clone https://huggingface.co/Xenova/jina-embeddings-v2-base-en
+

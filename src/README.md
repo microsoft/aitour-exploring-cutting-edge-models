@@ -37,6 +37,21 @@ Use macOS to build this sample
 
 ### ***03.WebGPU***
 
+
+***Required environment***
+
+- Support Google Chrome 113+, Microsoft Edge 113+, Safari 18 (macOS 15), Firefox Nightly
+
+- Enable WebGPU
+
+    Perform the following operations in the Chrome / Microsoft Edge address bar
+
+    The chrome://flags/#enable-unsafe-webgpu flag must be enabled (not enable-webgpu-developer-features). Linux experimental support also requires launching the browser with --enable-features=Vulkan.
+
+- Safari 18 (macOS 15) is enabled by default
+
+- Firefox Nightly Enter about:config in the address bar and set dom.webgpu.enabled to true
+
 ```bash
 
 npm run build

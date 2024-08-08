@@ -1,14 +1,20 @@
-# Source code
+# Getting Started with Demo Source Code
 
-This is the Sample Code for AI Tour Session - Exploring Cutting Edge Models
+## Overview of Demos
+This repository contains sample code for the AI Tour Session - Exploring Cutting Edge Models. Each demo folder has a README file with more details. Additional demo videos will be available for use in PowerPoint presentations if live demos are not possible.
 
+## Setting Up the Environment Using Codespaces
+We have provided a complete Codespaces environment in the repository. You can also download the devcontainer for local installation by clicking on the devcontainer link.
 
-***Note:*** You need to wait for Codespaces to initialize, because the model needs to be downloaded.
+### Codespace Environment:
 
+- 32 Core CPU
+- 128GB of Memory
 
-## Lab-01 : Inference Phi-3 ONNX
+**Note:** Please wait for Codespaces to initialize and for the setup scripts to complete. We are downloading and installing LLM and SLM models directly to Codespaces, so it may take some time.
 
-This is about scenarios that reference, iOS apps, and RAG(WebGPU) with Phi-3-Instruct and Phi-3-Vision 
+## Demo-01: Inference with Phi-3 ONNX
+This demo covers scenarios involving iOS apps and RAG (WebGPU) with Phi-3-Instruct and Phi-3-Vision.
 
 | <div style="width:280px">Resources</div>          | <div style="width:180px">Links</div>                           | Description |
 |-------------------|----------------------------------|-------------------|
@@ -17,61 +23,43 @@ This is about scenarios that reference, iOS apps, and RAG(WebGPU) with Phi-3-Ins
 | 03. Create RAG App with WebGPU   | [Code](../src/01.InferencePhi3/03.chat/) | Create RAG app with WebGPU |
 
 
-### ***01.notebooks***
+## Demo 1. Notebooks Demos for Phi-3 and GPT4o
 
-01.Phi3_Instruct.ipynb & 02.Phi3_Vision.ipynb 
+## 01. Notebooks comparing models
+`01.Phi3_Instruct.ipynb` & `02.Phi3_Vision.ipynb`: Just run these notebooks.
+`03.GPT4o_Vision:` Requires an Azure OpenAI Service Subscription or GitHub Models. Compare the results of Phi-3-Vision and GPT-4o to see Phi-3-Vision’s strong code and image understanding capabilities.
 
-just running
+### 02.iOS
+Use macOS to build this sample.
 
-03.GPT4o_Vision 
+### 03.WebGPU
+Required Environment:
 
-You need to have Azure OpenAI Service Subscription or GitHub Models
+**Supported browsers:** 
+- Google Chrome 113+
+- Microsoft Edge 113+
+- Safari 18 (macOS 15)
+- Firefox Nightly.
 
-We can compare the results of Phi-3-Vision and GPT-4o, and you will find that Phi-3-Vision also has very strong code and image understanding capabilities.
+### Enable WebGPU:
+- In Chrome/Microsoft Edge, enable the `chrome://flags/#enable-unsafe-webgpu` flag.
+- For Linux, launch the browser with `--enable-features=Vulkan`.
+- Safari 18 (macOS 15) has WebGPU enabled by default.
+- In Firefox Nightly, enter about:config in the address bar and `set dom.webgpu.enabled to true`.
 
-
-
-### ***02.iOS***
-
-Use macOS to build this sample
-
-### ***03.WebGPU***
-
-
-***Required environment***
-
-- Support Google Chrome 113+, Microsoft Edge 113+, Safari 18 (macOS 15), Firefox Nightly
-
-- Enable WebGPU
-
-    Perform the following operations in the Chrome / Microsoft Edge address bar
-
-    The chrome://flags/#enable-unsafe-webgpu flag must be enabled (not enable-webgpu-developer-features). Linux experimental support also requires launching the browser with --enable-features=Vulkan.
-
-- Safari 18 (macOS 15) is enabled by default
-
-- Firefox Nightly Enter about:config in the address bar and set dom.webgpu.enabled to true
-
-```bash
-
+Run the following command to get strated 
+```
 npm run build
-
+```
+```
 npm run dev
-
 ```
 
+### WebGPU Demo
 
-![0201](../src/imgs/0201.png)
+**Note:** The model needs to be cached in the browser, so it may take some time to load. Upload the markdown file `intro_rag.md` to complete the RAG solution.
 
-***Note*** 
-
-1. We need to cache Model in Browser, so it will take some time to load model in web cache
-
-2. Upload the markdown file [intro_rag.md](../src/01.InferencePhi3/docs/intro_rag.md) to finish RAG solution
-
-
-
-## Lab-02 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
+## Demo-02 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
 
 Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and deployment(Azure Machine Learing,Azure Container Apps)
 
@@ -80,9 +68,9 @@ Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and
 ***Note*** I will update script soon
 
 
-## Lab-03 : Cloud Native RAG Solutions with Phi-3
+## Demo-03 : Cloud Native RAG Solutions with Phi-3
 
-Uisng Cloud Native Solutions with Phi-3, including .NET Aspire, Semantic Kernel and RAG
+Using Cloud Native Solutions with Phi-3, including .NET Aspire, Semantic Kernel and RAG
 
 [Sample Code](./03.CloudNativeRAG/)
 

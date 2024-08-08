@@ -27,6 +27,10 @@ just running
 
 You need to have Azure OpenAI Service Subscription or GitHub Models
 
+We can compare the results of Phi-3-Vision and GPT-4o, and you will find that Phi-3-Vision also has very strong code and image understanding capabilities.
+
+
+
 ### ***02.iOS***
 
 Use macOS to build this sample
@@ -41,6 +45,9 @@ npm run dev
 
 ```
 
+
+![0201](../src/imgs/0201.png)
+
 ***Note*** 
 
 1. We need to cache Model in Browser, so it will take some time to load model in web cache
@@ -49,7 +56,7 @@ npm run dev
 
 
 
-## Lab-02 : Fine-tuning Phi-3 with AITools VSCode Extensions
+## Lab-02 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
 
 Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and deployment(Azure Machine Learing,Azure Container Apps)
 
@@ -78,5 +85,23 @@ export ASPIRE_ALLOW_UNSECURED_TRANSPORT=true
 dotnet run --launch-profile http
 
 ```
+
+click this link to go to .NET Aspire Portal
+
+![0301](../src/imgs/0301.png)
+
+You will see the .NET Aspire Portal
+
+![0302](../src/imgs/0302.png)
+
+please set vue portal in your codespaces ports
+
+![0303](../src/imgs/0303.png)
+
+Ok! You can chat with Phi-3 
+
+
+![0304](../src/imgs/0304.png)
+
 
 

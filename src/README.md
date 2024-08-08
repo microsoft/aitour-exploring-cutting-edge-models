@@ -3,6 +3,9 @@
 This is the Sample Code for AI Tour Session - Exploring Cutting Edge Models
 
 
+***Note:*** You need to wait for Codespaces to initialize, because the model needs to be downloaded.
+
+
 ## Lab-01 : Inference Phi-3 ONNX
 
 This is about scenarios that reference, iOS apps, and RAG(WebGPU) with Phi-3-Instruct and Phi-3-Vision 
@@ -14,6 +17,37 @@ This is about scenarios that reference, iOS apps, and RAG(WebGPU) with Phi-3-Ins
 | 03. Create RAG App with WebGPU   | [Code](../src/01.InferencePhi3/03.chat/) | Create RAG app with WebGPU |
 
 
+### ***01.notebooks***
+
+01.Phi3_Instruct.ipynb & 02.Phi3_Vision.ipynb 
+
+just running
+
+03.GPT4o_Vision 
+
+You need to have Azure OpenAI Service Subscription or GitHub Models
+
+### ***02.iOS***
+
+Use macOS to build this sample
+
+### ***03.WebGPU***
+
+```bash
+
+npm run build
+
+npm run dev
+
+```
+
+***Note*** 
+
+1. We need to cache Model in Browser, so it will take some time to load model in web cache
+
+2. Upload the markdown file [intro_rag.md](../src/01.InferencePhi3/docs/intro_rag.md) to finish RAG solution
+
+
 
 ## Lab-02 : Fine-tuning Phi-3 with AITools VSCode Extensions
 
@@ -21,9 +55,28 @@ Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and
 
 [Sample Code](./02.AIToolsSolutionE2E/)
 
+***Note*** I will update script soon
+
 
 ## Lab-03 : Cloud Native RAG Solutions with Phi-3
 
 Uisng Cloud Native Solutions with Phi-3, including .NET Aspire, Semantic Kernel and RAG
 
 [Sample Code](./03.CloudNativeRAG/)
+
+
+```bash
+
+cd Phi3DotNETAspire/Phi3.Aspire.AppHost
+
+dotnet build
+
+cp -r ../../libs/* ./Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+
+export ASPIRE_ALLOW_UNSECURED_TRANSPORT=true 
+
+dotnet run --launch-profile http
+
+```
+
+

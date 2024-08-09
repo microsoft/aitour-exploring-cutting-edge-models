@@ -52,6 +52,18 @@ After enabling the flag, you’ll need to restart your browser for the changes t
 - Safari 18 (macOS 15) has WebGPU enabled by default.
 - In Firefox Nightly, enter about:config in the address bar and `set dom.webgpu.enabled to true`.
 
+### Setting up GPU for Microsoft Edge 
+
+Here are the steps to set up a high-performance GPU for Microsoft Edge on Windows:
+
+- **Open Settings:** Click on the Start menu and select Settings.
+- **System Settings:** Go to System and then Display.
+- **Graphics Settings:** Scroll down and click on Graphics settings.
+- **Choose App:** Under “Choose an app to set preference,” select Desktop app and then Browse.
+- **Select Edge:** Navigate to the Edge installation folder (usually `C:\Program Files (x86)\Microsoft\Edge\Application`) and select `msedge.exe`.
+- **Set Preference:** Click Options, choose High performance, and then click Save.
+This will ensure that Microsoft Edge uses your high-performance GPU for better performance. 
+- **Restart** your machine for these setting to take effect 
 
 ### Open Your Codespace:
 Navigate to your repository on GitHub.

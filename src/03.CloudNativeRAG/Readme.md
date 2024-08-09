@@ -59,16 +59,24 @@ You know need to configure your GitHub Codespaces ports.
 To set up port forwarding for http://localhost:42811 in GitHub Codespaces, follow these steps:
 ![Configure Ports](/src/imgs/0303.png)
 **Open your codespace:** Start your codespace in GitHub Codespaces.
+
 **Access the PORTS tab:**
+
 - If you’re using Visual Studio Code, click on the PORTS tab in the bottom panel.
 - If you’re using the browser, you can find the PORTS tab in the sidebar.
+
 **Add the port:**
+
 - Click on Add port.
 - Enter 42811 as the port number and press Enter.
+
 **Access the forwarded port:**
+
 Once the port is forwarded, you can access it via a URL provided by GitHub Codespaces. This URL will be displayed in the PORTS tab and can be clicked to open in your browser.
 Optional
+
 **Change port protocol:**
+
 If you need to use HTTPS instead of HTTP, right-click the port in the PORTS tab, hover over Change Port Protocol, and select HTTPS.
 For more detailed information, you can refer to the GitHub Docs on forwarding ports in [Codespaces](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace)
 

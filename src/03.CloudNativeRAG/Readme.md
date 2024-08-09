@@ -4,7 +4,7 @@
 
 ### Navigate to the Project Directory:
 ```
-cd 03.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost
+cd src/03.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost
 ```
 
 ### Build the Project:

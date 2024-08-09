@@ -34,3 +34,46 @@ cd ../Xenova
 
 git clone https://huggingface.co/Xenova/jina-embeddings-v2-base-en
 
+cd ../../../../03.CloudNativeRAG/libs
+
+wget https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1.tar.gz
+
+tar -zxvf cmake-3.27.1.tar.gz
+
+cd cmake-3.27.1
+
+./bootstrap
+
+make
+
+sudo make install
+
+cd ../
+
+git clone https://github.com/microsoft/onnxruntime.git
+
+cd onnxruntime
+
+./build.sh --build_shared_lib --skip_tests --parallel --config Release
+
+cd ../
+
+git clone https://github.com/microsoft/onnxruntime-genai
+
+cd onnxruntime-genai
+
+mkdir ort
+
+cd ort
+
+mkdir include
+
+mkdir lib
+
+cp ../../onnxruntime/include/onnxruntime/core/session/onnxruntime_c_api.h ./include
+
+cp ../../onnxruntime/build/Linux/Release/libonnxruntime*.so* ./lib
+
+cd ../
+
+python build.py

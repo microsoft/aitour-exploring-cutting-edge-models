@@ -93,11 +93,11 @@ click this link to go to .NET Aspire Portal
 
 ![0301](../src/imgs/0301.png)
 
-You will see the .NET Aspire Portal
+You will see the .NET Aspire Portal, go to vue , you will see Endpoint such as http://localhost:42811, copy port number 42811
 
 ![0302](../src/imgs/0302.png)
 
-please set vue portal in your codespaces ports
+please set port number 42811 in your codespaces ports
 
 ![0303](../src/imgs/0303.png)
 

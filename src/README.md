@@ -81,7 +81,13 @@ cd Phi3DotNETAspire/Phi3.Aspire.AppHost
 
 dotnet build
 
-cp -r ../../libs/* ./Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime-genai.so ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+
+cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+
+cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1 ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+
+cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1.20.0 ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
 
 export ASPIRE_ALLOW_UNSECURED_TRANSPORT=true 
 

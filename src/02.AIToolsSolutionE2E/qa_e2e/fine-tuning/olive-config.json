@@ -1,0 +1,148 @@
+{
+    "azureml_client": {
+        "subscription_id": "Your Azure Subscription ID",
+        "resource_group": "Your Azure Resource Group",
+        "workspace_name": "Your Azure ML Worksapce",
+        "keyvault_name":  "Your Azure Key Valuts"
+    },
+    "input_model":{
+        "type": "PyTorchModel",
+        "config": {
+            "hf_config": {
+                "model_name": "microsoft/Phi-3-mini-4k-instruct",
+                "task": "text-generation",
+                "from_pretrained_args": {
+                    "trust_remote_code": true
+                }
+            }
+        }
+    },
+    "systems": {
+        "aml": {
+            "type": "AzureML",
+            "config": {
+                "accelerators": [
+                    {
+                        "device": "gpu",
+                        "execution_providers": [
+                            "CUDAExecutionProvider"
+                        ]
+                    }
+                ],
+                "hf_token": true,
+                "aml_compute": "Your Azure ML Compute Cluster",
+                "aml_docker_config": {
+                    "base_image": "mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04",
+                    "conda_file_path": "conda.yaml"
+                }
+            }
+        },
+        "azure_arc": {
+            "type": "AzureML",
+            "config": {
+                "accelerators": [
+                    {
+                        "device": "gpu",
+                        "execution_providers": [
+                            "CUDAExecutionProvider"
+                        ]
+                    }
+                ],
+                "aml_compute": "Your Azure ML Compute",
+                "aml_docker_config": {
+                    "base_image": "mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04",
+                    "conda_file_path": "conda.yaml"
+                }
+            }
+        }
+    },
+    "data_configs": [
+        {
+            "name": "dataset_default_train",
+            "type": "HuggingfaceContainer",
+            "load_dataset_config": {
+                "params": {
+                    "data_name": "json", 
+                    "data_files": {
+                        "type": "azureml_datastore",
+                        "config": {
+                            "azureml_client": {
+                                "subscription_id": "Your Azure Subscrition ID",
+                                "resource_group": "Your Azure Resource Group",
+                                "workspace_name": "Your Azure ML Workspaces name"
+                            },
+                            "datastore_name": "workspaceblobstore",
+                            "relative_path": "Your train_data.json Azure ML Location"
+                        }
+                    },
+                    "split": "train"
+                }
+            },
+            "pre_process_data_config": {
+                "params": {
+                    "dataset_type": "corpus",
+                    "text_cols": [
+                            "Question",
+                            "Best Answer"
+                    ],
+                    "text_template": "<|user|>\n{Question}<|end|>\n<|assistant|>\n{Best Answer}\n<|end|>",
+                    "corpus_strategy": "join",
+                    "source_max_len": 2048,
+                    "pad_to_max_len": false,
+                    "use_attention_mask": false
+                }
+            }
+        }
+    ],
+    "passes": {
+        "lora": {
+            "type": "LoRA",
+            "config": {
+                "target_modules": [
+                    "o_proj",
+                    "qkv_proj"
+                ],
+                "double_quant": true,
+                "lora_r": 64,
+                "lora_alpha": 64,
+                "lora_dropout": 0.1,
+                "train_data_config": "dataset_default_train",
+                "eval_dataset_size": 0.1,
+                "training_args": {
+                    "seed": 0,
+                    "data_seed": 42,
+                    "per_device_train_batch_size": 1,
+                    "per_device_eval_batch_size": 1,
+                    "gradient_accumulation_steps": 4,
+                    "gradient_checkpointing": false,
+                    "learning_rate": 0.0001,
+                    "num_train_epochs": 3,
+                    "max_steps": 100,
+                    "logging_steps": 100,
+                    "evaluation_strategy": "steps",
+                    "eval_steps": 187,
+                    "group_by_length": true,
+                    "adam_beta2": 0.999,
+                    "max_grad_norm": 0.3
+                }
+            }
+        },
+        "merge_adapter_weights": {
+            "type": "MergeAdapterWeights"
+        },
+        "builder": {
+            "type": "ModelBuilder",
+            "config": {
+                "precision": "int4"
+            }
+        }
+    },
+    "engine": {
+        "log_severity_level": 0,
+        "host": "aml",
+        "target": "aml",
+        "search_strategy": false,
+        "cache_dir": "cache",
+        "output_dir" : "../model-cache/models/phi3-finetuned"
+    }
+}

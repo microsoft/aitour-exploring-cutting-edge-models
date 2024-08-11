@@ -61,11 +61,19 @@ npm run dev
 
 ## Demo-02 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
 
-Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and deployment(Azure Machine Learing,Azure Container Apps)
+Using AI Tools VSCode Extensions with Phi-3,including fine-tuning, inference,and deployment(Azure Machine Learing Service)
 
 [Sample Code](./02.AIToolsSolutionE2E/)
 
-***Note*** I will update script soon
+| Step | Description | Operation |
+|-------------------|----------------------------------|-------------------|
+|01.Installation| Please follow this step to set your env|[Go](./02.AIToolsSolutionE2E/qa_e2e/docs/01.Installation.md)|
+|02.Prepare your QA datasets| Prepare your datasets, and tell you how to clean your datasets|[Go](./02.AIToolsSolutionE2E/qa_e2e/docs/02.PrepareDatasets.md)|
+|03.Use Microsoft Olive to architect SLMOps | Using Microsoft Olive tools to fit your SLMOps cycle|[Go](./02.AIToolsSolutionE2E/qa_e2e/docs/03.Installation.md)|
+|04.Inference your Fine-tuning models| Inference your onnx model after fine tuning|[Go](./02.AIToolsSolutionE2E/qa_e2e/docs/04.Installation.md)|
+
+
+***Note*** Please use Azure & Azure Compute - A100 to finish your env
 
 
 ## Demo-03 : Cloud Native RAG Solutions with Phi-3

@@ -1,9 +1,7 @@
 # Phi-3-mini WebGPU RAG Chatbot Demo
 
-## Demo for showcasing WebGPU 
-
-**Note** Installing Node Environment in your codespace
-Running an npm demo from a GitHub Codespace is a great way to test and develop your project. Here’s a step-by-step guide to help you get started:
+## Demo for showcasing WebGPU and RAG Pattern
+The RAG Pattern with Phi-3 Onnx Hosted model leverages the Retrieval-Augmented Generation approach, combining the power of Phi-3 models with ONNX hosting for efficient AI deployments. This pattern is instrumental in fine-tuning models for domain-specific tasks, offering a blend of quality, cost-effectiveness, and long-context understanding. It’s part of Azure AI’s suite, providing a wide selection of models that are easy to find, try, and use, catering to the customization needs of various industries. The Phi-3 models, including Phi-3-mini, Phi-3-small, and Phi-3-medium, are available on Azure AI Model Catalog and can be fine-tuned and deployed self-managed or through platforms like HuggingFace and ONNX, showcasing Microsoft’s commitment to accessible and efficient AI solutions.
 
 ## What is WebGPU 
 WebGPU is a modern web graphics API designed to provide efficient access to a device's graphics processing unit (GPU) directly from web browsers. It is intended to be the successor to WebGL, offering several key improvements:
@@ -70,6 +68,9 @@ Navigate to your repository on GitHub.
 Click on the Code button and select Open with Codespaces.
 
 If you don’t have a Codespace yet, you can create one by clicking New codespace.
+
+**Note** Installing Node Environment in your codespace
+Running an npm demo from a GitHub Codespace is a great way to test and develop your project. Here’s a step-by-step guide to help you get started:
 
 ### Set Up Your Environment:
 Once your Codespace is open, ensure you have Node.js and npm installed. You can check this by running:

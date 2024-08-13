@@ -56,18 +56,29 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Cloud-based vs. On-device Models
 - Text, Code, Image, and Multimodal Models
  
-[**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (2 min)](/src/README.md) 
+[**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision**](/src/01.InferencePhi3/01.notebooks/) 
+Comparing SLMs vs LLMs Inference using text and vision building cross platform solution
+(2 min)](/src/README.md) 
 - [Notebooks](/src/01.InferencePhi3/01.notebooks/)
+
+This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image. 
+
+- The opportunity of SLMs and LLMs
+
+[**DEMO- ONNXRuntime WebGL + AI PC](/src/01.InferencePhi3/)
 - [CopilotPC](/src/01.InferencePhi3/03.chat/README.md)
 - [iPhone](/src/01.InferencePhi3/02.ios/README.md) 
-
+- [AIPC Sample]()
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities
 - Performance metrics and evaluation methods
 - Iterative refinement and validation processes
 - Fine-tuning options for model improvement
-- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/README.md)
+
+- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/02.AIToolsSolutionE2E/)
+
+Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using AI Toolkit 
 
 ### Tools for Model Evaluation and Comparison ( 5-8 min)
 - Azure Machine Learning for model accuracy measurement
@@ -77,7 +88,13 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 ### Case Studies (8-10 min)
 - Examples of successful model applications
 - Lessons learned from model deployment and usage
-- [**DEMO - Phi-3 RAG** (5 min)](/src/README.md)
+
+- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/03.CloudNativeRAG/Phi3DotNETAspire/)
+
+RAG Aspire demo(We can deploy Phi-3 as Service and .using .NET Aspire to create Cloud Native Distribution Application)
+
+The RAG Aspire demo showcases the deployment of Phi-3 as a service and the use of .NET Aspire to create a cloud-native distributed application chat application. This demonstration aligns with Azure’s capabilities, highlighting the seamless integration and deployment of advanced AI models like Phi-3 within the Azure ecosystem. It also emphasizes the versatility of .NET Aspire in building scalable, cloud-native applications, catering to the growing demand for intelligent and responsive chat applications in various industries.
+
 
 ### Conclusion (3 min)
 - Recap of key points

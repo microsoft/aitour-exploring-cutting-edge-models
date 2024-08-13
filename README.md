@@ -56,16 +56,15 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - Cloud-based vs. On-device Models
 - Text, Code, Image, and Multimodal Models
  
-[**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision**](/src/01.InferencePhi3/01.notebooks/) 
+[**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (3 min)](/src/01.InferencePhi3/01.notebooks/) 
 Comparing SLMs vs LLMs Inference using text and vision building cross platform solution
-(2 min)](/src/README.md) 
 - [Notebooks](/src/01.InferencePhi3/01.notebooks/)
 
 This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image. 
 
 - The opportunity of SLMs and LLMs
 
-[**DEMO- ONNXRuntime WebGL + AI PC](/src/01.InferencePhi3/)
+[**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/01.InferencePhi3/)
 - [CopilotPC](/src/01.InferencePhi3/03.chat/README.md)
 - [iPhone](/src/01.InferencePhi3/02.ios/README.md) 
 - [AIPC Sample]()

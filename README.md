@@ -88,7 +88,7 @@ Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using 
 - Examples of successful model applications
 - Lessons learned from model deployment and usage
 
-- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/03.CloudNativeRAG/)
+- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/03.CloudNativeRAG/Readme.md)
 
 RAG Aspire demo(We can deploy Phi-3 as Service and .using .NET Aspire to create Cloud Native Distribution Application)
 

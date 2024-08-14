@@ -36,11 +36,14 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 
 ## Technology Used
 - LLMs, SLMs 
-- AI Studio, Azure Model Catalog, GitHub Model Catalog 
+- [AI Studio](https://ai.azure.com)
+- [Azure Model Catalog](https://learn.microsoft.com/azure/ai-studio/how-to/model-catalog-overview)
+- [GitHub Model Catalog](https://github.com/marketplace/models) 
 - LLMs - GPT 3.5 GPT 4/4v/4o
-- SLMs - Phi-3 
-- ONNX/OLIVE
-- Windows AI PC SDK 
+- SLMs - Phi-3 )
+- [ONNXRuntime](https://onnxruntime.ai/)
+- [OLIVE](https://github.com/microsoft/OLive)
+- [Windows AI PC SDK](https://aka.ms/wcr) 
 
 ## Session Overview
 

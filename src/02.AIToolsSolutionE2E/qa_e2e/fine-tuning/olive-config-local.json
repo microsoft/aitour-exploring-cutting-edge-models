@@ -1,15 +1,10 @@
+
 {
-    "azureml_client": {
-        "subscription_id": "Your Azure Subscription ID",
-        "resource_group": "Your Azure Resource Group",
-        "workspace_name": "Your Azure ML Worksapce",
-        "keyvault_name":  "Your Azure Key Valuts"
-    },
     "input_model":{
         "type": "PyTorchModel",
         "config": {
             "hf_config": {
-                "model_name": "microsoft/Phi-3-mini-4k-instruct",
+                "model_name": "../models/microsoft/Phi-3-mini-4k-instruct",
                 "task": "text-generation",
                 "from_pretrained_args": {
                     "trust_remote_code": true
@@ -18,41 +13,17 @@
         }
     },
     "systems": {
-        "aml": {
-            "type": "AzureML",
+        "local_system": {
+            "type": "LocalSystem",
             "config": {
                 "accelerators": [
                     {
-                        "device": "gpu",
+                        "device": "GPU",
                         "execution_providers": [
                             "CUDAExecutionProvider"
                         ]
                     }
-                ],
-                "hf_token": true,
-                "aml_compute": "Your Azure ML Compute Cluster",
-                "aml_docker_config": {
-                    "base_image": "mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04",
-                    "conda_file_path": "conda.yaml"
-                }
-            }
-        },
-        "azure_arc": {
-            "type": "AzureML",
-            "config": {
-                "accelerators": [
-                    {
-                        "device": "gpu",
-                        "execution_providers": [
-                            "CUDAExecutionProvider"
-                        ]
-                    }
-                ],
-                "aml_compute": "Your Azure ML Compute",
-                "aml_docker_config": {
-                    "base_image": "mcr.microsoft.com/azureml/openmpi4.1.0-cuda11.8-cudnn8-ubuntu22.04",
-                    "conda_file_path": "conda.yaml"
-                }
+                ]
             }
         }
     },
@@ -63,18 +34,7 @@
             "load_dataset_config": {
                 "params": {
                     "data_name": "json", 
-                    "data_files": {
-                        "type": "azureml_datastore",
-                        "config": {
-                            "azureml_client": {
-                                "subscription_id": "Your Azure Subscrition ID",
-                                "resource_group": "Your Azure Resource Group",
-                                "workspace_name": "Your Azure ML Workspaces name"
-                            },
-                            "datastore_name": "workspaceblobstore",
-                            "relative_path": "Your train_data.json Azure ML Location"
-                        }
-                    },
+                    "data_files":"../datasets/datasets.json",
                     "split": "train"
                 }
             },
@@ -107,7 +67,7 @@
                 "lora_alpha": 64,
                 "lora_dropout": 0.1,
                 "train_data_config": "dataset_default_train",
-                "eval_dataset_size": 0.1,
+                "eval_dataset_size": 0.3,
                 "training_args": {
                     "seed": 0,
                     "data_seed": 42,
@@ -116,9 +76,9 @@
                     "gradient_accumulation_steps": 4,
                     "gradient_checkpointing": false,
                     "learning_rate": 0.0001,
-                    "num_train_epochs": 3,
-                    "max_steps": 100,
-                    "logging_steps": 100,
+                    "num_train_epochs": 5,
+                    "max_steps": 10,
+                    "logging_steps": 10,
                     "evaluation_strategy": "steps",
                     "eval_steps": 187,
                     "group_by_length": true,
@@ -139,10 +99,10 @@
     },
     "engine": {
         "log_severity_level": 0,
-        "host": "aml",
-        "target": "aml",
+        "host": "local_system",
+        "target": "local_system",
         "search_strategy": false,
         "cache_dir": "cache",
-        "output_dir" : "../model-cache/models/phi3-finetuned"
+        "output_dir" : "../models-cache/microsoft/phi3-mini-finetuned"
     }
 }

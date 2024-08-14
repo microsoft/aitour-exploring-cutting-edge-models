@@ -1,4 +1,4 @@
-# Phi-3-mini WebGPU RAG Chatbot Demo
+# Demo 2. Phi-3-mini WebGPU RAG Chatbot
 
 ## Demo for showcasing WebGPU and RAG Pattern
 The RAG Pattern with Phi-3 Onnx Hosted model leverages the Retrieval-Augmented Generation approach, combining the power of Phi-3 models with ONNX hosting for efficient AI deployments. This pattern is instrumental in fine-tuning models for domain-specific tasks, offering a blend of quality, cost-effectiveness, and long-context understanding. It’s part of Azure AI’s suite, providing a wide selection of models that are easy to find, try, and use, catering to the customization needs of various industries. The Phi-3 models, including Phi-3-mini, Phi-3-small, and Phi-3-medium, are available on Azure AI Model Catalog and can be fine-tuned and deployed self-managed or through platforms like HuggingFace and ONNX, showcasing Microsoft’s commitment to accessible and efficient AI solutions.

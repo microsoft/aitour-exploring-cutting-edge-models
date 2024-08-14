@@ -1,4 +1,4 @@
-## Demo-02 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
+## Demo 3 : Fine-tuning Phi-3 with AI Tools VSCode Extensions
 
 Using Azure AI Tools & Microsoft VS Code 
 

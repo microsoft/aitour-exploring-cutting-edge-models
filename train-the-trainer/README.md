@@ -4,7 +4,7 @@ Welcome,
 
 We're glad you are here and look forward to your delivery of this amazing content. 
 
-As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team.
 
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
 code.
@@ -49,7 +49,6 @@ Here is a summary of the selected slides:
 | Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
 | Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
 
-
 This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
@@ -76,8 +75,7 @@ The [slides](presentations.md) have presenter notes in each part of the session
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
-[The provided Codespaces and Devcontainer enviroment and prerequisites are outlined here](../Environment.md). 
-
+[The provided Codespaces and Devcontainer enviroment and prerequisites are outlined here](../Environment.md).
 
 ## Demos
 
@@ -89,6 +87,6 @@ Detailed explanations of each demonstration associated with this presentation ca
 | <div style="width:280px">Resources</div>          | <div style="width:180px">Links</div>                           | Description |
 |-------------------|----------------------------------|-------------------|
 | 01. Introduce Phi-3  | [01.Phi-3 Instruct](../src/01.InferencePhi3/01.notebooks/01.Phi3_Instruct.ipynb) <br/><br/> [02.Phi-3 Vision](../src/01.InferencePhi3/01.notebooks/02.Phi3_Vision.ipynb) <br/><br/> [03.Phi-3 vs GPT-4o](../src/01.InferencePhi3/01.notebooks/03.GPT4o_Vision.ipynb) | Introduce Phi-3,including instruct and vision samples. We can compare the generation result with Phi-3 Vision and GPT-4o  |
-| 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/01.InferencePhi3/03.chat/README.md) | FineTuning using Olive |
-| 03. Fine Tuning on Local Machine or Cloud    | [Code](..//src/02.AIToolsSolutionE2E/Readme.md) | FineTuning using Olive |
-| 04. Cloud Native Distributed Application | [Code](../src/03.CloudNativeRAG/Readme.md) | Cloud Native create a .NET Apsire RAG app with WebGPU |
+| 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/02.ONNXRuntime/01.WebGPU%20Chat%20RAG/Readme.md) | FineTuning using Olive |
+| 03. Fine Tuning on Local Machine or Cloud    | [Code](..//src/03.AIToolsSolutionE2E/Readme.md) | FineTuning using Olive |
+| 04. Cloud Native Distributed Application | [Code](../src/04.CloudNativeRAG/Readme.md) | Cloud Native create a .NET Apsire RAG app with WebGPU |

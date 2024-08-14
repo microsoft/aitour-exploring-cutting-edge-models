@@ -1,4 +1,4 @@
-## Demo-03 : Cloud Native RAG Solutions with Phi-3
+## Demo 4 : Cloud Native RAG Solutions with Phi-3
 
 Using Cloud Native Solutions with Phi-3, including .NET Aspire, Semantic Kernel and RAG
 

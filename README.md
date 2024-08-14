@@ -64,7 +64,7 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 
 - The opportunity of SLMs and LLMs
 
-[**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/02.ONNXRuntime/01.WebGPU%20Chat%20RAG/Readme.md)
+[**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/02.ONNXRuntime/01.WebGPUChatRAG/Readme.md)
 - [iPhone](/src/01.InferencePhi3/02.ios/README.md) 
 - [AIPC Sample]()
 - [WebGPU](/src/02.ONNXRuntime/

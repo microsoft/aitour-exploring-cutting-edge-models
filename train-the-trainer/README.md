@@ -87,6 +87,6 @@ Detailed explanations of each demonstration associated with this presentation ca
 | <div style="width:280px">Resources</div>          | <div style="width:180px">Links</div>                           | Description |
 |-------------------|----------------------------------|-------------------|
 | 01. Introduce Phi-3  | [01.Phi-3 Instruct](../src/01.InferencePhi3/01.notebooks/01.Phi3_Instruct.ipynb) <br/><br/> [02.Phi-3 Vision](../src/01.InferencePhi3/01.notebooks/02.Phi3_Vision.ipynb) <br/><br/> [03.Phi-3 vs GPT-4o](../src/01.InferencePhi3/01.notebooks/03.GPT4o_Vision.ipynb) | Introduce Phi-3,including instruct and vision samples. We can compare the generation result with Phi-3 Vision and GPT-4o  |
-| 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/02.ONNXRuntime/01.WebGPU%20Chat%20RAG/Readme.md) | FineTuning using Olive |
+| 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/02.ONNXRuntime/01.WebGPUChatRAG/Readme.md) | FineTuning using Olive |
 | 03. Fine Tuning on Local Machine or Cloud    | [Code](..//src/03.AIToolsSolutionE2E/Readme.md) | FineTuning using Olive |
 | 04. Cloud Native Distributed Application | [Code](../src/04.CloudNativeRAG/Readme.md) | Cloud Native create a .NET Apsire RAG app with WebGPU |

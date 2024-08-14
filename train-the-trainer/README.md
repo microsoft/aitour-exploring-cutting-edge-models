@@ -1,17 +1,39 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
 ## How To Use
 
 Welcome,
 
-We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+We're glad you are here and look forward to your delivery of this amazing content. 
+
+As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
 
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
 code.
 
+## Session overview 
+
+Here is a summary of the selected slides:
+
+### Session Flow:
+
+**Introduction:** Brief overview of Generative AI models and the importance of choosing the right model for specific tasks.
+
+**Types of Generative AI Models:** Discussion on LLMs, SLMs, proprietary vs. open, cloud-based vs. on-device, and multi-modal models. Includes a demo comparing SLMs vs. LLMs and inference using text and vision.
+
+**Common Scenarios and Processes:** Criteria to help guide towards the right model, including task requirements, model capabilities, performance metrics, evaluation methods, iterative refinement, and validation processes. Includes a demo on fine-tuning using local and cloud resources.
+
+**Tools for Model Evaluation and Comparison:** Azure ML for model accuracy measurement, industry-standard evaluation metrics for different model types, and experimentation and validation techniques for model selection.
+
+**Case Studies:** Examples of successful model applications and lessons learned from deployment. Includes a demo of the .NET Aspire RAG Solution.
+
+**Conclusion:** Recap of key points and final thoughts on the future of Generative AI models.
+
+**Session Goals:** Provide a comprehensive understanding of Generative AI models, their types, and the criteria for selecting the right model for specific tasks.
+
+**Demos:** Demonstrate AI’s integration with Azure services, enhancing cloud management and sales engagement.
+
+**Key Audience Takeaways:** Grasp the essentials of Generative AI models, including the importance of model selection for specific tasks and the differences between various model types. Learn about the criteria for choosing the right model and discover tools for model evaluation. Gain real-world insights into model applications and optimization techniques through case studies.
+
+# Getting Started
 1.  Read document in its entirety.
 2.  Watch the video presentation
 3.  Ask questions of the Lead Presenter
@@ -23,17 +45,16 @@ code.
 | PowerPoint        | - [Presentation](presentations.md) | Slides |
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
+| Demos             | - [Demo's Overview](../src/README.md) | Demo Setup and Preperation | 
 | Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
 | Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
 
-## Get Started
 
 This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
+| 36 slides - 30 minutes| 4 demos - 15 minutes | [Demo setup](../src/README.md)
 
 ## Slides
 
@@ -41,29 +62,32 @@ The [slides](presentations.md) have presenter notes in each part of the session
 
 ### Timing
 
+
 | Time        | Description 
 --------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
+0:00 - 5:00   | Introduction
+5:00 - 12:00  | Types of Geerative AI Models
+12:00 - 22:00 | Criteria for Choosing the Right Model
+22:00 - 30:00 | Tools for Model Evaluation and Comparisson
+30:00 - 40:00 | Case Study
+40:00 - 45:00 | Conclusion
 
 ## Deployment / Preparation
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
-[Instructions and prerequisites are outlined here](deployment/README.md). 
+[The provided Codespaces and Devcontainer enviroment and prerequisites are outlined here](../Environment.md). 
 
 
 ## Demos
 
 > **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
+Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](../src/README.md).
 
-| Demo 	                                                                                               | Minutes | Video |
--------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
 
+| <div style="width:280px">Resources</div>          | <div style="width:180px">Links</div>                           | Description |
+|-------------------|----------------------------------|-------------------|
+| 01. Introduce Phi-3  | [01.Phi-3 Instruct](../src/01.InferencePhi3/01.notebooks/01.Phi3_Instruct.ipynb) <br/><br/> [02.Phi-3 Vision](../src/01.InferencePhi3/01.notebooks/02.Phi3_Vision.ipynb) <br/><br/> [03.Phi-3 vs GPT-4o](../src/01.InferencePhi3/01.notebooks/03.GPT4o_Vision.ipynb) | Introduce Phi-3,including instruct and vision samples. We can compare the generation result with Phi-3 Vision and GPT-4o  |
+| 02. Using iPhone to create copilot application    | [Code](../src/01.InferencePhi3/02.ios/) | Create iPhone chat apps witn Phi-3 mini |
+| 03. Create RAG App with WebGPU   | [Code](../src/01.InferencePhi3/03.chat/) | Create RAG app with WebGPU |

@@ -35,12 +35,11 @@ Examples of successful model applications will provide insights into practical d
 We’ll wrap up with thoughts on where this field is headed and its potential impact.
 
 ## Technology Used
-- LLMs, SLMs 
 - [AI Studio](https://ai.azure.com)
 - [Azure Model Catalog](https://learn.microsoft.com/azure/ai-studio/how-to/model-catalog-overview)
 - [GitHub Model Catalog](https://github.com/marketplace/models) 
-- LLMs - GPT 3.5 GPT 4/4v/4o
-- SLMs - Phi-3 )
+- Large Language Models - GPT 3.5 GPT 4/4v/4o
+- Small Language Midelss - Phi-3 
 - [ONNXRuntime](https://onnxruntime.ai/)
 - [OLIVE](https://github.com/microsoft/OLive)
 - [Windows AI PC SDK](https://aka.ms/wcr) 
@@ -50,7 +49,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 ### Introduction (5 min)
 - Brief overview of Generative AI models
 - Importance of choosing the right model for specific tasks
-- DEMO- Multimodal and GPT Prompts vs DALL-E Outcomes 
+- Multimodal and GPT Prompts vs DALL-E Outcomes
 
 ### Types of Generative AI Models (8min)
 - Large Language Models (LLMs)
@@ -63,7 +62,7 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 Comparing SLMs vs LLMs Inference using text and vision building cross platform solution
 - [Notebooks](/src/01.InferencePhi3/01.notebooks/)
 
-This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image. 
+This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image.
 
 - The opportunity of SLMs and LLMs
 
@@ -80,7 +79,7 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 
 - [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/03.AIToolsSolutionE2E/Readme.md)
 
-Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using AI Toolkit 
+Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using Microsoft Olive
 
 ### Tools for Model Evaluation and Comparison ( 5-8 min)
 - Azure Machine Learning for model accuracy measurement
@@ -91,20 +90,18 @@ Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using 
 - Examples of successful model applications
 - Lessons learned from model deployment and usage
 
-- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/04.CloudNativeRAG/Readme.md)
+- [**DEMO - Cloud Native Distributed Application using Phi-3 & .NET Aspire to undertake RAG**  (5 min)](/src/04.CloudNativeRAG/Readme.md)
 
-RAG Aspire demo(We can deploy Phi-3 as Service and .using .NET Aspire to create Cloud Native Distribution Application)
+RAG Aspire demo(Deployment of Phi-3 as Models as a Service and .using .NET Aspire to create Cloud Native Distribution Application)
 
 The RAG Aspire demo showcases the deployment of Phi-3 as a service and the use of .NET Aspire to create a cloud-native distributed application chat application. This demonstration aligns with Azure’s capabilities, highlighting the seamless integration and deployment of advanced AI models like Phi-3 within the Azure ecosystem. It also emphasizes the versatility of .NET Aspire in building scalable, cloud-native applications, catering to the growing demand for intelligent and responsive chat applications in various industries.
-
 
 ### Conclusion (3 min)
 - Recap of key points
 - Final thoughts on the future of Generative AI models
 
-### Q&A (5min)
+### Q&A
 - Open floor for questions and discussion
-
 
 ## Session Resources and Continued Learning
 
@@ -143,7 +140,7 @@ The RAG Aspire demo showcases the deployment of Phi-3 as a service and the use o
 | MMLU                | MMLU ((Massive Multitask Language Understanding) evaluates how well the LLM can multitask                                                                              | [https://github.com/hendrycks/test](https://github.com/hendrycks/test)               |
 | KILT                | Library for Knowledge intestive language tasks                                                                                                                         | [https://github.com/facebookresearch/KILT](https://github.com/facebookresearch/KILT) |
 
-## Evaluation Frameworks 
+## Evaluation Frameworks
 
 | Frameworks / Platforms                 | Description                                                                                                                                                                                                                                                    | Tutorials/lessons                                                                                                                            | Reference                                       |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -190,4 +187,3 @@ The RAG Aspire demo showcases the deployment of Phi-3 as a service and the use o
 </tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-

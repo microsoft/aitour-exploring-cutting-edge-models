@@ -89,5 +89,6 @@ Detailed explanations of each demonstration associated with this presentation ca
 | <div style="width:280px">Resources</div>          | <div style="width:180px">Links</div>                           | Description |
 |-------------------|----------------------------------|-------------------|
 | 01. Introduce Phi-3  | [01.Phi-3 Instruct](../src/01.InferencePhi3/01.notebooks/01.Phi3_Instruct.ipynb) <br/><br/> [02.Phi-3 Vision](../src/01.InferencePhi3/01.notebooks/02.Phi3_Vision.ipynb) <br/><br/> [03.Phi-3 vs GPT-4o](../src/01.InferencePhi3/01.notebooks/03.GPT4o_Vision.ipynb) | Introduce Phi-3,including instruct and vision samples. We can compare the generation result with Phi-3 Vision and GPT-4o  |
-| 02. Using iPhone to create copilot application    | [Code](../src/01.InferencePhi3/02.ios/) | Create iPhone chat apps witn Phi-3 mini |
-| 03. Create RAG App with WebGPU   | [Code](../src/01.InferencePhi3/03.chat/) | Create RAG app with WebGPU |
+| 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/01.InferencePhi3/03.chat/README.md) | FineTuning using Olive |
+| 03. Fine Tuning on Local Machine or Cloud    | [Code](..//src/02.AIToolsSolutionE2E/Readme.md) | FineTuning using Olive |
+| 04. Cloud Native Distributed Application | [Code](../src/03.CloudNativeRAG/Readme.md) | Cloud Native create a .NET Apsire RAG app with WebGPU |

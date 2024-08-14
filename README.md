@@ -64,10 +64,10 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 
 - The opportunity of SLMs and LLMs
 
-[**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/01.InferencePhi3/)
+[**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/02.ONNXRuntime/01.WebGPU%20Chat%20RAG/README.md)
 - [iPhone](/src/01.InferencePhi3/02.ios/README.md) 
 - [AIPC Sample]()
-- [WebGPU](/src/01.InferencePhi3/03.chat/README.md)
+- [WebGPU](/src/02.ONNXRuntime/
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities
@@ -75,7 +75,7 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 - Iterative refinement and validation processes
 - Fine-tuning options for model improvement
 
-- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/02.AIToolsSolutionE2E/Readme.md)
+- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/03.AIToolsSolutionE2E/Readme.md)
 
 Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using AI Toolkit 
 
@@ -88,7 +88,7 @@ Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using 
 - Examples of successful model applications
 - Lessons learned from model deployment and usage
 
-- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/03.CloudNativeRAG/Readme.md)
+- [**DEMO - Phi-3 RAG using .NET Aspire**  (5 min)](/src/04.CloudNativeRAG/Readme.md)
 
 RAG Aspire demo(We can deploy Phi-3 as Service and .using .NET Aspire to create Cloud Native Distribution Application)
 

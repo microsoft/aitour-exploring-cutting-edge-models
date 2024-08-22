@@ -11,11 +11,13 @@
 ## Session Desciption
 Today, there are many Generative AI models to choose from: Large Language Models (LLMs), Small Language Models (SLMs), proprietary models, open models, models in the cloud, models on devices, text models, code models, image models, and multimodal models. In this session, we'll provide guidance to help you choose the right model to fit your needs, and tools you can use to evaluate and compare models for your specific tasks.
 
-### Breakout Abstract:
+### Abstract:
 There are many Generative AI models: LLMs, SLMs, proprietary, open, cloud-based, on-device, text, code, image, and multimodal. Learn how to choose the right model for your needs and about tools to evaluate and compare models for specific tasks.
  
 ### Duration: 
 45 minutes
+
+### [Slide Deck](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Faitourassetstore.blob.core.windows.net%2Fassets%2FBRK453%2520Exploring%2520cutting-edge%2520models%253A%2520LLMs%2C%2520SLMs%2C%2520local%2520development%2520and%2520more%2FBRK453_V1.0.pptx&wdOrigin=BROWSELINK)
 
 ## Learning Outcomes
  

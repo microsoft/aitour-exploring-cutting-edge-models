@@ -42,7 +42,7 @@ Here is a summary of the selected slides:
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
+| PowerPoint        | - [Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Faitourassetstore.blob.core.windows.net%2Fassets%2FBRK453%2520Exploring%2520cutting-edge%2520models%253A%2520LLMs%2C%2520SLMs%2C%2520local%2520development%2520and%2520more%2FBRK453_V1.0.pptx&wdOrigin=BROWSELINK) | Slides |
 | PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
 | Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
 | Demos             | - [Demo's Overview](../src/README.md) | Demo Setup and Preperation | 
@@ -57,7 +57,7 @@ This training repository is divided in to the following sections:
 
 ## Slides
 
-The [slides](presentations.md) have presenter notes in each part of the session
+The [slides](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Faitourassetstore.blob.core.windows.net%2Fassets%2FBRK453%2520Exploring%2520cutting-edge%2520models%253A%2520LLMs%2C%2520SLMs%2C%2520local%2520development%2520and%2520more%2FBRK453_V1.0.pptx&wdOrigin=BROWSELINK) have presenter notes in each part of the session
 
 ### Timing
 

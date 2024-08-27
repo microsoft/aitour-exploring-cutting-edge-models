@@ -46,11 +46,12 @@ Here is a summary of the selected slides:
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | Coming soon | Example Presentations of this Session |
 | Demos             | [Demo Setup and Preperation](../src/) | 
-| Demo Recordings   | [Demo 1](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo1_V1.0.mp4) | Recording of the Demo 1 |
-| Demo Recordings   | [Demo 2](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%202_V1.0.mp4) | Recording of the Demo 2 |
-| Demo Recordings   | [Demo 2b](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%202b_V1.0.mp4) | Recording of the Demo 2b |
-| Demo Recordings   | [Demo 3](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%203_V1.0.mp4) | Recording of the Demo 3 |
-| Demo Recordings   | [Demo 4](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%204_V1.0.mp4) | Recording of the Demo 4 |
+| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArxlic" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 1 |
+| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArz5vh" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 2 |
+| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArzlas" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 2b |
+| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArzdl0" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 3 |
+| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArz5vo" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 4 |
+
 This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 

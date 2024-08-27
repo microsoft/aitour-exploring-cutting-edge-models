@@ -17,7 +17,7 @@ There are many Generative AI models: LLMs, SLMs, proprietary, open, cloud-based,
 ### Duration: 
 45 minutes
 
-### [Slide Deck](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Faitourassetstore.blob.core.windows.net%2Fassets%2FBRK453%2520Exploring%2520cutting-edge%2520models%253A%2520LLMs%2C%2520SLMs%2C%2520local%2520development%2520and%2520more%2FBRK453_V1.0.pptx&wdOrigin=BROWSELINK)
+### [Slide Deck](https://aka.ms/AArxlic)
 
 ## Learning Outcomes
  
@@ -63,16 +63,16 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 [**DEMO- Inference Phi-3-mini-instruct & Phi-3-vision** (3 min)](/src/01.InferencePhi3/01.notebooks/) 
 Comparing SLMs vs LLMs Inference using text and vision building cross platform solution
 - [Notebooks](/src/01.InferencePhi3/01.notebooks/)
-- [Model Chat Demo]()
+- [Model Chat Demo Video](https://aka.ms/AArzlav)
 This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image.
-
 - The opportunity of SLMs and LLMs
 
 [**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/02.ONNXRuntime/01.WebGPUChatRAG/Readme.md)
 - [AIPC Sample Source Code](https://github.com/microsoft/ai-powered-notes-winui3-sample) 
 - [AI PC Video Demo for non AI PC users]()
 - [WebGPU RAG Chat Demo](/src/02.ONNXRuntime/)
-- [Video WebGPU RAG Chat Demo]()
+- [Video WebGPU RAG Chat Demo](https://aka.ms/AArz5vh)
+- [Video AI PC Demo](https://aka.ms/AArzlas)
 
 ### Criteria for Choosing the Right Model (10 min)
 - Task requirements and model capabilities
@@ -81,7 +81,7 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 - Fine-tuning options for model improvement
 
 - [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/03.AIToolsSolutionE2E/Readme.md)
-- [Video of Fine-Tuning Demo]()
+- [Video of Fine-Tuning Demo](https://aka.ms/AArzdl0)
 
 Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using Microsoft Olive
 
@@ -95,6 +95,7 @@ Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using 
 - Lessons learned from model deployment and usage
 
 - [**DEMO - Cloud Native Distributed Application using Phi-3 & .NET Aspire to undertake RAG**  (5 min)](/src/04.CloudNativeRAG/Readme.md)
+- [Video Cloud Native](https://aka.ms/AArz5vo)
 
 RAG Aspire demo(Deployment of Phi-3 as Models as a Service and .using .NET Aspire to create Cloud Native Distribution Application)
 

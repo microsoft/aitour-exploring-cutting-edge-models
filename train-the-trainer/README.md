@@ -45,10 +45,12 @@ Here is a summary of the selected slides:
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | Coming soon | Example Presetations of this Session |
-| Demos             | Coming soon | Demo Setup and Preperation | 
-| Demo Recordings           | Coming soon | Recording of the Demo Live 1 | 
-
-
+| Demos             | [Demo Setup and Preperation](../src/) | 
+| Demo Recordings   | [Demo 1](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo1_V1.0.mp4) | Recording of the Demo 1 |
+| Demo Recordings   | [Demo 2](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%202_V1.0.mp4) | Recording of the Demo 2 |
+| Demo Recordings   | [Demo 2b](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%202b_V1.0.mp4) | Recording of the Demo 2b |
+| Demo Recordings   | [Demo 3](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%203_V1.0.mp4) | Recording of the Demo 3 |
+| Demo Recordings   | [Demo 4](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%204_V1.0.mp4) | Recording of the Demo 4 |
 This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 

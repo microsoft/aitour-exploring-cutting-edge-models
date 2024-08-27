@@ -46,11 +46,11 @@ Here is a summary of the selected slides:
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | Coming soon | Example Presentations of this Session |
 | Demos             | [Demo Setup and Preperation](../src/) | 
-| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArxlic" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 1 |
-| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArz5vh" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 2 |
-| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArzlas" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 2b |
-| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArzdl0" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 3 |
-| Demo Recordings   | <iframe width="560" height="315" src="https://aka.ms/AArz5vo" frameborder="0" allowfullscreen></iframe> | Recording of the Demo 4 |
+| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArxlic) | Recording of the Demo 1 |
+| Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Recording of the Demo 2 |
+| Demo Recordings   | [https://aka.ms/AArzlas](https://aka.ms/AArzlas) | Recording of the Demo 2b |
+| Demo Recordings   | [https://aka.ms/AArzdl0](https://aka.ms/AArzdl0) | Recording of the Demo 3 |
+| Demo Recordings   | [https://aka.ms/AArz5vo](https://aka.ms/AArz5vo)| Recording of the Demo 4 |
 
 This training repository is divided in to the following sections:
 

@@ -44,7 +44,7 @@ Here is a summary of the selected slides:
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
-| Videos            | Coming soon | Example Presetations of this Session |
+| Videos            | Coming soon | Example Presentations of this Session |
 | Demos             | [Demo Setup and Preperation](../src/) | 
 | Demo Recordings   | [Demo 1](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo1_V1.0.mp4) | Recording of the Demo 1 |
 | Demo Recordings   | [Demo 2](https://aitourassetstore.blob.core.windows.net/assets/BRK453%20Exploring%20cutting-edge%20models%3A%20LLMs,%20SLMs,%20local%20development%20and%20more/Demo%202_V1.0.mp4) | Recording of the Demo 2 |

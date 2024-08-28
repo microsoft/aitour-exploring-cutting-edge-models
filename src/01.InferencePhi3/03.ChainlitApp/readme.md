@@ -146,7 +146,7 @@ To run chainlit demo app, run the following command:
 
 ```bash
 source .env
-cd src
+cd src/01.InferencePhi3/03.ChainlitApp
 chainlit run app.py -w
 ```
 

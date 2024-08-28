@@ -65,12 +65,14 @@ Comparing SLMs vs LLMs Inference using text and vision building cross platform s
 - [Notebooks](/src/01.InferencePhi3/01.notebooks/)
 - [Model Chat Demo Video](https://aka.ms/AArzlav)
 This demo takes an image png and then converts the image to code using Phi3 Onnx model local hosted vs GPT4o (Azure/GitHub Models Cloud hosted) the image is then converted to create a matplot python version of the image.
+
 [**DEMO- Chainlit RAG Chat App which is using GitHub Models and Inference API** (2 min)](/src/01.InferencePhi3/03.ChainlitApp/readme.md) 
 Comparing SLMs vs LLMs Inference using text from a RAGChat web application
 - [Notebooks](/src/01.InferencePhi3/03.ChainlitApp/llama_index_selector_gh_models.ipynb)
 - [ChainLit App](/src/01.InferencePhi3/03.ChainlitApp/app.py)
 - [Model Chat Demo Video](TBD)
 This demo is a RAG chat demo using text files and compairing the difference of LLM and SLM model outputs you can select the LLM or SLM to utilise and compare results.
+
 - The opportunity of SLMs and LLMs
 
 [**DEMO- ONNXRuntime WebGL + AI PC** (5 min)](/src/02.ONNXRuntime/01.WebGPUChatRAG/Readme.md)

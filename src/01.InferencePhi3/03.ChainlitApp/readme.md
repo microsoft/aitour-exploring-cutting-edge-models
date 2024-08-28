@@ -107,7 +107,7 @@ To run chainlit demo app, run the following command from your VScode terminal wi
 
 ```bash
 source .env
-cd src
+cd src/01.InferencePhi3/03.ChainlitApp
 chainlit run app.py -w
 ```
 A browser will open in `http://localhost:8000`.

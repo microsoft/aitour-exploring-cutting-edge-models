@@ -46,15 +46,7 @@ The following models are available in the GitHub Models service with new models 
 
 You can run this samples virtually by using GitHub Codespaces and no additional settings or setup are required. 
 
-The button will open a web-based VS Code instance in your browser:
-
-1. Open the template (this may take several minutes):
-
-    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/leestott/azureai-x-arize)
-
-2. Open a terminal window and you will see the container deployment status
-3. Once the container and requirements.txt have been deployed run the demo
-4. To run chainlit demo app, run the following command in the Codespace Terminal Window:
+1. To run chainlit demo app, run the following command in the Codespace Terminal Window:
 
 ```bash
 source .env
@@ -73,9 +65,6 @@ A related option is VS Code Dev Containers, which will open the project in your 
 
 1. Start Docker Desktop (install it if not already installed)
 2. Open the project:
-
-    [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/leestott/azureai-x-arize)
-
 3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
 4. Setting your GitHub Personal Token to autenticate (Only Required for Local deploymants, NO additional steps are required if your running **GitHub Codespaces**)
 5.  Create a personal access token
@@ -120,7 +109,7 @@ This example currently build the packages `llama-index-embeddings-azure-inferenc
 This repository has the following examples:
 
 * [llama_index_selector.ipynb](llama_index_selector_gh_models.ipynb): It explains how multiple LLMs can be use for data generation, evaluation, and for specific tasks like tool selection. It shows how to instrument your code using Phoenix.
-* [src/app.py](src/app.py): A chainlit project that allows you to play with index we built in the previous example. Use the notebook to learn about the technique and the approach. You can use this playground for testing the idea.
+* [app.py](app.py): A chainlit project that allows you to play with index we built in the previous example. Use the notebook to learn about the technique and the approach. You can use this playground for testing the idea.
 
 ## Running the Web App Demo 
 

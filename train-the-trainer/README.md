@@ -43,10 +43,13 @@ Here is a summary of the selected slides:
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
+| Train the Trainer PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
+
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | Coming soon | Example Presentations of this Session |
 | Demos             | [Demo Setup and Preperation](../src/) | 
-| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArxlic) | Recording of the Demo 1 |
+| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Recording of the Demo 1 |
+| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Recording of the Demo 1b |
 | Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Recording of the Demo 2 |
 | Demo Recordings   | [https://aka.ms/AArzlas](https://aka.ms/AArzlas) | Recording of the Demo 2b |
 | Demo Recordings   | [https://aka.ms/AArzdl0](https://aka.ms/AArzdl0) | Recording of the Demo 3 |

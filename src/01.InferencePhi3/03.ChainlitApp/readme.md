@@ -119,7 +119,7 @@ This example currently build the packages `llama-index-embeddings-azure-inferenc
 
 This repository has the following examples:
 
-* [llama_index_selector.ipynb](llama_index_selector.ipynb): It explains how multiple LLMs can be use for data generation, evaluation, and for specific tasks like tool selection. It shows how to instrument your code using Phoenix.
+* [llama_index_selector.ipynb](llama_index_selector_gh_models.ipynb): It explains how multiple LLMs can be use for data generation, evaluation, and for specific tasks like tool selection. It shows how to instrument your code using Phoenix.
 * [src/app.py](src/app.py): A chainlit project that allows you to play with index we built in the previous example. Use the notebook to learn about the technique and the approach. You can use this playground for testing the idea.
 
 ## Running the Web App Demo 

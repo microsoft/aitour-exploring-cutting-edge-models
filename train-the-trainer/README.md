@@ -62,7 +62,8 @@ This training repository is divided in to the following sections:
 
 ## Slides
 
-The [slides](https://aka.ms/AArxlic) Train the traciner resources has presenter notes in each part of the session
+[Clean Presentation Slides](https://aka.ms/AArxlic) No Notes or embeded videos 
+[Train the trainer slides](https://aka.ms/AArzpco) Resources have presenter notes in each part of the session
 
 ### Timing
 

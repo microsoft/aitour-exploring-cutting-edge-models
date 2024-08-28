@@ -70,7 +70,7 @@ This demo takes an image png and then converts the image to code using Phi3 Onnx
 Comparing SLMs vs LLMs Inference using text from a RAGChat web application
 - [Notebooks](/src/01.InferencePhi3/03.ChainlitApp/llama_index_selector_gh_models.ipynb)
 - [ChainLit App](/src/01.InferencePhi3/03.ChainlitApp/app.py)
-- [Model Chat Demo Video](TBD)
+- [Model Chat Demo Video](https://aka.ms/AArz9vx)
 This demo is a RAG chat demo using text files and compairing the difference of LLM and SLM model outputs you can select the LLM or SLM to utilise and compare results.
 
 - The opportunity of SLMs and LLMs

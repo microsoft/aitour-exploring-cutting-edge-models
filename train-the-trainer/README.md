@@ -43,11 +43,10 @@ Here is a summary of the selected slides:
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
-| Train the Trainer PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
-
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
-| Videos            | Coming soon | Example Presentations of this Session |
-| Demos             | [Demo Setup and Preperation](../src/) | 
+| Train the Trainer PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
+| Train the Trainer Video | Coming soon | Example Presentations of this Session |
+| Demo/Sample Code  | [Demo Setup and Preperation](../src/) | Sample Code (use GitHub Codespace Env) |
 | Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Recording of the Demo 1 |
 | Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Recording of the Demo 1b |
 | Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Recording of the Demo 2 |
@@ -59,11 +58,11 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 36 slides - 30 minutes| 4 demos - 15 minutes | [Demo setup](../src/README.md)
+| 36 slides - 30 minutes| 6 demos - 15 minutes | [Demo setup](../src/README.md)
 
 ## Slides
 
-The [slides](https://aka.ms/AArxlic) have presenter notes in each part of the session
+The [slides](https://aka.ms/AArxlic) Train the traciner resources has presenter notes in each part of the session
 
 ### Timing
 

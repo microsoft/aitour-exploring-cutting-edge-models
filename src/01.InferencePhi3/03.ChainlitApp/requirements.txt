@@ -1,0 +1,4 @@
+llama_index
+chainlit
+git+https://github.com/run-llama/llama_index.git#@mainsubdirectory=llama-index-integrations/llms/llama-index-llms-azure-inference
+git+https://github.com/run-llama/llama_index@main#subdirectory=llama-index-integrations/embeddings/llama-index-embeddings-azure-inference

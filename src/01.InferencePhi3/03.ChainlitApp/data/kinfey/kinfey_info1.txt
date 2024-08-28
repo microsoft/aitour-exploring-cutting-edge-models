@@ -1,0 +1,22 @@
+
+
+My job
+
+April, 2021 - Now
+
+Kinfey is Microsoft Senior Cloud Advovate at Microsoft,is responsible for the global technical content promotion of the small model Phi 3 in the AI ​​Core Team. 
+
+He has more than 18 years of experience in industry solutions in finance, telecommunications, education and other fields, focusing on cloud native, artificial intelligence , big data, Internet of Things and other fields. 
+
+In the field of GenAI, I am authored the <<Phi-3 Cookbook>> (read more than 300,000 times) focusing on small models and the Copilot application framework <<Semantic Kernel Cookbook>>, and provides integrated solutions based on LLMOps and SLMOps to different customers.
+
+My github is : kinfey
+
+Notes
+
+1. C# / Java / Python / NodeJS / rust
+
+2. Azure AI service
+
+3. Azure Machine Learning Service
+

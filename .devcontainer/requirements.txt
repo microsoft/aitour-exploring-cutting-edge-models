@@ -4,3 +4,16 @@ onnxruntime-genai --pre
 numpy
 matplotlib
 openai
+langchain-core
+arize-phoenix[evals]
+azure-ai-inference
+azure-identity
+pandas
+ipykernel
+python-dotenv
+llama_index
+llama-index-llms-azure-inference
+llama-index-embeddings-azure-openai
+llama-index-embeddings-azure-inference
+spacy
+chainlit

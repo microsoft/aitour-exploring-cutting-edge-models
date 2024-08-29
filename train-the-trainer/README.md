@@ -43,16 +43,16 @@ Here is a summary of the selected slides:
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
-| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
+| PPT Recording     | Video Recording of the PowerPoint slides with no audio | Video |
 | Train the Trainer PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
-| Train the Trainer Video | Coming soon | Example Presentations of this Session |
+| Train the Trainer Video | [Walkthrough Recording with narration](https://aka.ms/AAs0wdw)|  Video |
 | Demo/Sample Code  | [Demo Setup and Preperation](../src/) | Sample Code (use GitHub Codespace Env) |
-| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Recording of the Demo 1 |
-| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Recording of the Demo 1b |
-| Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Recording of the Demo 2 |
-| Demo Recordings   | [https://aka.ms/AArzlas](https://aka.ms/AArzlas) | Recording of the Demo 2b |
-| Demo Recordings   | [https://aka.ms/AArzdl0](https://aka.ms/AArzdl0) | Recording of the Demo 3 |
-| Demo Recordings   | [https://aka.ms/AArz5vo](https://aka.ms/AArz5vo)| Recording of the Demo 4 |
+| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Video Recording of the Demo 1 |
+| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Video Recording of the Demo 1b |
+| Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Video Recording of the Demo 2 |
+| Demo Recordings   | [https://aka.ms/AArzlas](https://aka.ms/AArzlas) | Video Recording of the Demo 2b |
+| Demo Recordings   | [https://aka.ms/AArzdl0](https://aka.ms/AArzdl0) | Video Recording of the Demo 3 |
+| Demo Recordings   | [https://aka.ms/AArz5vo](https://aka.ms/AArz5vo)| Video Recording of the Demo 4 |
 
 This training repository is divided in to the following sections:
 

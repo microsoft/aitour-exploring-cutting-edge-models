@@ -33,6 +33,7 @@ except (FileNotFoundError, KeyError, Exception):
     pass
 
 github_inference_url = "https://models.inference.ai.azure.com"
+# If using GitHub Personal access token add your token in the "" below
 github_token = os.getenv("GITHUB_TOKEN", "")
 github_models_names = {
     "AI21 Labs": "AI21-Jamba-Instruct",
@@ -56,6 +57,7 @@ github_models_names = {
     "Phi-3-mini-4k-instruct": "Phi-3-mini-4k-instruct",
     "Phi-3-small-128k-instruct": "Phi-3-small-128k-instruct",
     "Phi-3-small-8k-instruct": "Phi-3-small-8k-instruct",
+    "Phi-3.5-mini-instruct": "Phi-3.5-mini-instruct",
 }
 
 
@@ -91,6 +93,7 @@ async def start():
                     "Phi 3 Mini 4k Instruct": "Phi-3-mini-4k-instruct",
                     "Phi 3 Small 128k Instruct": "Phi-3-small-128k-instruct",
                     "Phi 3 Small 8k Instruct": "Phi-3-small-8k-instruct",
+                    "Phi-3.5-mini-instruct": "Phi-3.5-mini-instruct",
                 },
                 initial_value="Cohere Command R",
             ),
@@ -119,6 +122,7 @@ async def start():
                     "Phi 3 Mini 4k Instruct": "Phi-3-mini-4k-instruct",
                     "Phi 3 Small 128k Instruct": "Phi-3-small-128k-instruct",
                     "Phi 3 Small 8k Instruct": "Phi-3-small-8k-instruct",
+                    "Phi-3.5-mini-instruct": "Phi-3.5-mini-instruct",
                 },
                 initial_value="Cohere Command R+",
             ),

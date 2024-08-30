@@ -40,8 +40,8 @@ We’ll wrap up with thoughts on where this field is headed and its potential im
 - [AI Studio](https://ai.azure.com)
 - [Azure Model Catalog](https://learn.microsoft.com/azure/ai-studio/how-to/model-catalog-overview)
 - [GitHub Model Catalog](https://github.com/marketplace/models) 
-- Large Language Models - GPT 3.5 GPT 4/4v/4o
-- Small Language Models - Phi-3.5
+- [Large Language Models - GPT 3.5 GPT 4/4v/4o](https://ai.azure.com/explore/models)
+- [Small Language Models - Phi-3.5](https://ai.azure.com/explore/models) 
 - [ONNXRuntime](https://onnxruntime.ai/)
 - [OLIVE](https://github.com/microsoft/OLive)
 - [Windows AI PC SDK](https://aka.ms/wcr) 

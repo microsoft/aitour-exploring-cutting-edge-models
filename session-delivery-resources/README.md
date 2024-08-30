@@ -1,4 +1,4 @@
-## How To Use
+## The following resources are intended for a presenter to learn and deliver the session.
 
 Welcome,
 
@@ -44,8 +44,8 @@ Here is a summary of the selected slides:
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
 | PPT Recording     | Video Recording of the PowerPoint slides with no audio | Video |
-| Train the Trainer PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
-| Train the Trainer Video | [Walkthrough Recording with narration](https://aka.ms/AAs0wdw)|  Video |
+| Session Delivery PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
+| Session Delivery Video | [Walkthrough Recording with narration](https://aka.ms/AAs0wdw)|  Video |
 | Demo/Sample Code  | [Demo Setup and Preperation](../src/) | Sample Code (use GitHub Codespace Env) |
 | Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Video Recording of the Demo 1 |
 | Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Video Recording of the Demo 1b |
@@ -63,7 +63,7 @@ This training repository is divided in to the following sections:
 ## Slides
 
 [Clean Presentation Slides](https://aka.ms/AArxlic) No Notes or embeded videos 
-[Train the trainer slides](https://aka.ms/AArzpco) Resources have presenter notes in each part of the session
+[Session Delivery Training slides](https://aka.ms/AArzpco) Resources have presenter notes in each part of the session
 
 ### Timing
 

@@ -48,7 +48,7 @@ Here is a summary of the selected slides:
 | Session Delivery Video | [Walkthrough Recording with narration](https://aka.ms/AAs0wdw)|  Video |
 | Demo/Sample Code  | [Demo Setup and Preperation](../src/) | Sample Code (use GitHub Codespace Env) |
 | Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArzlav) | Video Recording of the Demo 1 |
-| Demo Recordings   | [https://aka.ms/AArxlic](https://aka.ms/AArz9vx) | Video Recording of the Demo 1b |
+| Demo Recordings   | [https://aka.ms/AArz9vx](https://aka.ms/AArz9vx) | Video Recording of the Demo 1b |
 | Demo Recordings   | [https://aka.ms/AArz5vh](https://aka.ms/AArz5vh) | Video Recording of the Demo 2 |
 | Demo Recordings   | [https://aka.ms/AArzlas](https://aka.ms/AArzlas) | Video Recording of the Demo 2b |
 | Demo Recordings   | [https://aka.ms/AArzdl0](https://aka.ms/AArzdl0) | Video Recording of the Demo 3 |

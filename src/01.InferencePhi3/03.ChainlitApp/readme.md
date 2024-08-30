@@ -39,6 +39,7 @@ The following models are available in the GitHub Models service with new models 
 - Phi-3-mini-4k-instruct
 - Phi-3-small-128k-instruct
 - Phi-3-small-8k-instruct
+- Phi-3.5-mini-instruct
 
 ## Environment setup
 

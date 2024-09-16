@@ -42,7 +42,7 @@ Here is a summary of the selected slides:
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides |
+| PowerPoint        | [Presentation](https://aka.ms/AArxlic) | Slides, [Additional Languages](#powerpoint-slides-in-additional-languages) |
 | PPT Recording     | Video Recording of the PowerPoint slides with no audio | Video |
 | Session Delivery PowerPoint Slides (Inc Speaker Notes and Embedded Videos | [Presentation](https://aka.ms/AArzpco) | Slides |
 | Session Delivery Video | [Walkthrough Recording with narration](https://aka.ms/AAs0wdw)|  Video |
@@ -77,6 +77,12 @@ This training repository is divided in to the following sections:
 30:00 - 40:00 | Case Study
 40:00 - 45:00 | Conclusion
 
+### PowerPoint Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| [Spanish](https://aka.ms/AAs8yt1) | 2024.09.10 | 
+| [Portuguese](https://aka.ms/AAs96i6) | 2024.09.10| 
+
 ## Deployment / Preparation
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
@@ -96,3 +102,11 @@ Detailed explanations of each demonstration associated with this presentation ca
 | 02. ONNXRuntime WebGPU + AI PC    | [Code](../src/02.ONNXRuntime/01.WebGPUChatRAG/Readme.md) | WebGPU Chat and AI PC Demo using ONNX Models|
 | 03. Fine Tuning on Local Machine or Cloud    | [Code](..//src/03.AIToolsSolutionE2E/Readme.md) | FineTuning using Olive |
 | 04. Cloud Native Distributed Application | [Code](../src/04.CloudNativeRAG/Readme.md) | Cloud Native create a .NET Apsire RAG app with WebGPU |
+
+## Change Log
+
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2024.09.10 | Added Change log, Additional language section with Spanish and Portuguese PowerPoint slides 

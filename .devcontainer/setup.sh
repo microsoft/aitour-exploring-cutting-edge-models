@@ -16,7 +16,7 @@ git clone https://huggingface.co/microsoft/Phi-3-vision-128k-instruct-onnx-cpu
 
 git clone https://huggingface.co/microsoft/Phi-3-mini-128k-instruct-onnx
 
-cd ../01.InferencePhi3/03.chat
+cd ../01.InferencePhi3/
 
 mkdir models
 

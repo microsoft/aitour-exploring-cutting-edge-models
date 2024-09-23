@@ -23,10 +23,10 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.2" />
-    <PackageReference Include="Aspire.Hosting.NodeJs" Version="8.0.2" />
-    <PackageReference Include="Aspire.Hosting.Qdrant" Version="8.0.2" />
-    <PackageReference Include="Aspire.Hosting.Redis" Version="8.0.2" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.Qdrant" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.0" />
   </ItemGroup>
 
   

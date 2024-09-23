@@ -38,7 +38,7 @@ cd ../../../../04.CloudNativeRAG/
 
 mkdir libs
 
-cd ../libs 
+cd ./libs
 
 wget https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1.tar.gz
 

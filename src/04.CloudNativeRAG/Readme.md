@@ -17,7 +17,7 @@ dotnet build
 
 ### Copy Necessary Libraries:
 
-Ensure you are in the .../src/03.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost folder
+Ensure you are in the .../src/04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost folder
 
 ```
 

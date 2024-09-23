@@ -17,17 +17,18 @@ dotnet build
 
 ### Copy Necessary Libraries:
 
-Ensure you are in the .../src/04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost folder
+Ensure you are in the .../src/04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.AppHost folder (You can copy the files manually or use the following command)
 
+Ensure you are in the 'src' folder 
 ```
 
-cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime-genai.so ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime-genai.so ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
 
-cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
 
-cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1 ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1 ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
 
-cp ../../libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1.20.0 ../Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native
+cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo//libonnxruntime.so.1.20.0 ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
 
 ```
 
@@ -42,7 +43,7 @@ dotnet run --launch-profile http
 ```
 
 ### Accessing the .NET Aspire Portal
-Click the Follow Link in the terminal to open the .NET Aspire Portal: 
+Click the Follow Link in the terminal to open the .NET Aspire Portal using the localhost link: 
 
 Eample of the follow link in the info section of the output in your terminal 
 ```

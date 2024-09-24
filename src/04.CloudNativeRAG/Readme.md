@@ -26,10 +26,6 @@ cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnx
 
 cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
 
-cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo/libonnxruntime.so.1 ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
-
-cp ./04.CloudNativeRAG/libs/onnxruntime-genai/build/Linux/RelWithDebInfo//libonnxruntime.so.1.20.0 ./04.CloudNativeRAG/Phi3DotNETAspire/Phi3.Aspire.ModelService/bin/Debug/net8.0/runtimes/linux-x64/native/
-
 ```
 
 ### Set Environment Variable:

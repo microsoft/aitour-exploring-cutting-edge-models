@@ -40,7 +40,7 @@ mkdir libs
 
 cd ./libs
 
-wget wget https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4.tar.gz
+wget https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4.tar.gz
 
 tar -zxvf cmake-3.30.4.tar.gz
 

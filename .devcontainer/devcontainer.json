@@ -8,7 +8,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
 		"ghcr.io/nikiforovall/devcontainer-features/dotnet-aspire:1": {},
-		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {},
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {},
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
 	"customizations": {

@@ -69,7 +69,7 @@ Open up the brower windows and you will see the .NET Aspire Portal with a list o
 ### Configure Your Ports: 
 You know need to configure your GitHub Codespaces ports. 
 To set up port forwarding for http://localhost:42811 in GitHub Codespaces, follow these steps:
-![Configure Ports](./imgs/0303.png)
+![Configure Ports](../imgs/0303.png)
 
 **Access the PORTS tab:**
 

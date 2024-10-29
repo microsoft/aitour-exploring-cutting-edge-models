@@ -13,11 +13,11 @@ We have provided a complete Codespaces environment in the repository. You can al
 
 **Note:** Please wait for Codespaces to initialize and for the setup scripts to complete. We are downloading and installing LLM and SLM models directly to Codespaces, so it may take some time.
 
-### [Demo 1. Notebooks Demos for Phi-3 and GPT4o](/src/01.InferencePhi3/01.notebooks/Readme.md)
+### [Demo 1. Notebooks Demos for Phi-3 and GPT4o](../src/01.InferencePhi3/01.notebooks/Readme.md)
 
-### [Demo 2. ONNXRuntime WebGPU + AI-PC](/src/02.%20ONNXRuntime/) 
+### [Demo 2. ONNXRuntume Phi-3.5 or ONNXRuntime WebGPU RAG](../src/02.ONNXRuntime/Readme.md) 
 
 ### [Demo 3 : Fine-tuning Phi-3 with AI Tools VSCode Extensions](../src/03.AIToolsSolutionE2E/Readme.md)
 
-### [Demo 4 : Cloud Native RAG Solutions with Phi-3](/src/04.CloudNativeRAG/Readme.md)
+### [Demo 4 : Cloud Native RAG Solutions with Phi-3](../src/04.CloudNativeRAG/Readme.md)
 

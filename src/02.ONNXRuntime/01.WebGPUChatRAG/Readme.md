@@ -16,6 +16,8 @@ WebGPU is currently supported in browsers like Google Chrome, with ongoing work 
 ### 03.WebGPU
 Required Environment:
 
+Machine with GPU 
+
 **Supported browsers:** 
 - Google Chrome 113+
 - Microsoft Edge 113+

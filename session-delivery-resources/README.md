@@ -60,11 +60,11 @@ Hugging Face Model https://huggingface.co
 **Compute VM**
 Web GPU Demo
 GPU Enabled machines or 
-Azure VM Stanard NC24ads_A100v4 24 Cores 
+Azure VM Standard NC24ads_A100v4 24 Cores 
 
 **AML Compute** 
 Fine Tuning Demo
-VM Stanard NC24ads_A100v4 24 Cores
+VM Standard NC24ads_A100v4 24 Cores
 
 ## File Summary
 

@@ -38,6 +38,34 @@ Here is a summary of the selected slides:
 2.  Watch the video presentation
 3.  Ask questions of the Lead Presenter
 
+## Required Quota
+
+The majority of the demos can be run directly with the codespaces environment 
+ 
+>**What's Here?** The quota required to deploy **one instance** of this application. More quota may be necessary if multiple speakers deliver the same content at the same time.
+
+GPT Model Demo 
+
+| Model                  | SKU          | Capacity (TPM) |
+|------------------------|--------------|----------------|
+| gpt-35-turbo           | Standard (1) | 5k            |
+| gpt-4                  | Standard (1) | 5k            |
+
+Phi-3.5 Demo 
+GitHub Model MarketPlace https://github.com/marketplace/models
+Hugging Face Model https://huggingface.co 
+
+**(Type)**: Standard or Global Standard
+
+**Compute VM**
+Web GPU Demo
+GPU Enabled machines or 
+Azure VM Stanard NC24ads_A100v4 24 Cores 
+
+**AML Compute** 
+Fine Tuning Demo
+VM Stanard NC24ads_A100v4 24 Cores
+
 ## File Summary
 
 | Resources          | Links                            | Description |

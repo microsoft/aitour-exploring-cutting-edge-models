@@ -79,6 +79,7 @@ This demo is a RAG chat demo using text files and compairing the difference of L
 - [AIPC Sample Source Code](https://github.com/microsoft/ai-powered-notes-winui3-sample) 
 - [AI PC Video Demo for non AI PC users]()
 - [WebGPU RAG Chat Demo](/src/02.ONNXRuntime/)
+- [WebGPU Chat Hugging Face Phi-3.5](https://huggingface.co/spaces/webml-community/phi-3.5-webgpu)
 - [Video WebGPU RAG Chat Demo](https://aka.ms/AArz5vh)
 - [Video AI PC Demo](https://aka.ms/AArzlas)
 
@@ -88,9 +89,10 @@ This demo is a RAG chat demo using text files and compairing the difference of L
 - Iterative refinement and validation processes
 - Fine-tuning options for model improvement
 
-- [**DEMO - Phi-3 Fine-tuning** (5 min)](/src/03.AIToolsSolutionE2E/Readme.md)
-- [Video of Fine-Tuning Demo](https://aka.ms/AArzdl0)
 
+- [**Demo 1. Phi3.5/Olive Fine Tuning via Python Script** (5mins)](/src/03.AIToolsSolutionE2E/Olive_Demo/readme.md) 
+- [**Demo 2. Phi-3 Fine-tuning** (5 min)](/src/03.AIToolsSolutionE2E/Readme.md)
+- [Video of Fine-Tuning Demo](https://aka.ms/AArzdl0)
 Cloud Based FineTuning using Azure AI Compute and Local based Fine Tuning using Microsoft Olive
 
 ### Tools for Model Evaluation and Comparison ( 5-8 min)

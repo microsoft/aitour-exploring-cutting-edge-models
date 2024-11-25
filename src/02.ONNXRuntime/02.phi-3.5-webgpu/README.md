@@ -2,6 +2,8 @@
 
 A simple React + Vite application for running [Phi-3.5-mini-instruct](https://huggingface.co/onnx-community/Phi-3.5-mini-instruct-onnx-web), a powerful small language model, locally in the browser using Transformers.js and WebGPU-acceleration.
 
+If you dont want install the solution you can run it from a [Hugging Face Space](https://huggingface.co/spaces/webml-community/phi-3.5-webgpu)
+
 ## Getting Started
 
 Follow the steps below to set up and run the application running in the codespaces environment.

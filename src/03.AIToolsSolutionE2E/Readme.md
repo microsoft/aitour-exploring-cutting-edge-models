@@ -10,6 +10,15 @@ This demo provides a structured approach to fine-tuning the Phi-3 model using AI
 
 **Sample Code**
 
+**Demo 1. Olive Demo** 
+| Step | Description | Operation |
+|-------------------|----------------------------------|-------------------|
+|01.Installation| Please follow this step to set your env|[Go](./Olive_Demo/readme.md)|
+|02.Use Microsoft Olive to architect | Using Microsoft Olive tools to fit your SLMOps cycle|[Go](./Olive_Demo/readme.md)|
+|04.Inference your Fine-tuning models| Inference your onnx model after fine tuning|[Go](./Olive_Demo/readme.md)|
+
+**Demo 2. QA_E2E**
+
 | Step | Description | Operation |
 |-------------------|----------------------------------|-------------------|
 |01.Installation| Please follow this step to set your env|[Go](./qa_e2e/docs/01.Installation.md)|

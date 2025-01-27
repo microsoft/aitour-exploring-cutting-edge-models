@@ -10,7 +10,7 @@ using Phi3.Aspire.ModelService.Domains;
 public class Phi3Agent
 {
 
-    private static string modelPath = @"/workspaces/aitour-exploring-cutting-edge-models/src/Models/Phi-3-mini-128k-instruct-onnx/cpu_and_mobile/cpu-int4-rtn-block-32-acc-level-4/"; 
+    private static string modelPath = @"/workspaces/workshop-aitour-exploring-cutting-edge-models/src/Models/Phi-3.5-mini-instruct-onnx/cpu_and_mobile/cpu-int4-awq-block-128-acc-level-4"; 
 
     private static Microsoft.ML.OnnxRuntimeGenAI.Model model = null;
     private static Microsoft.ML.OnnxRuntimeGenAI.Tokenizer  tokenizer = null;

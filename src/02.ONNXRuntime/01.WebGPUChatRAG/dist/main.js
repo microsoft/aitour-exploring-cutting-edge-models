@@ -2887,7 +2887,7 @@ const PATH_AVAILABLE = !isEmpty(path__WEBPACK_IMPORTED_MODULE_1__); // check if 
 const RUNNING_LOCALLY = FS_AVAILABLE && PATH_AVAILABLE;
 
 const __dirname = RUNNING_LOCALLY
-    ? path__WEBPACK_IMPORTED_MODULE_1__.dirname(path__WEBPACK_IMPORTED_MODULE_1__.dirname(url__WEBPACK_IMPORTED_MODULE_2__.fileURLToPath("file:///workspaces/aitour-exploring-cutting-edge-models/src/01.InferencePhi3/03.chat/node_modules/@xenova/transformers/src/env.js")))
+    ? path__WEBPACK_IMPORTED_MODULE_1__.dirname(path__WEBPACK_IMPORTED_MODULE_1__.dirname(url__WEBPACK_IMPORTED_MODULE_2__.fileURLToPath("file:///workspaces/workshop-aitour-exploring-cutting-edge-models/src/02.ONNXRuntime/01.WebGPUChatRAG/node_modules/@xenova/transformers/src/env.js")))
     : './';
 
 // Only used for environments with access to file system
@@ -31817,16 +31817,18 @@ async function Init(hasFP16) {
     }
 
 
-    document.getElementById('header').style.display = 'none';
+    // document.getElementById('header').style.display = 'none';
     document.getElementById('progress-model-container').style.display = 'block';
+    document.getElementById('headtitle').innerHTML='Loading Model...(if you run it first time)';
+    document.getElementById('addMarkdown').style.display = 'none';
 
     rag = new _rag_js__WEBPACK_IMPORTED_MODULE_1__.RAG();
     await rag.load('Xenova/jina-embeddings-v2-base-en');
     await rag.InitPhi3SLM();
 
     document.getElementById('progress-model-container').style.display = 'none';
-    document.getElementById('header').style.display = 'block';
-    // await rag.loadONNX();
+    document.getElementById('headtitle').innerHTML='Phi-3-mini WebGPU RAG Chatbot Demo';
+    document.getElementById('addMarkdown').style.display = 'block';
   } catch (error) {
     console.log('InitError');
   }

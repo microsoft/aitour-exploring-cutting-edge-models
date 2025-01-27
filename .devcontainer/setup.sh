@@ -12,9 +12,9 @@ cd ./src/Models
 
 git lfs install
 
-git clone https://huggingface.co/microsoft/Phi-3-vision-128k-instruct-onnx-cpu
+git clone https://huggingface.co/microsoft/Phi-3.5-vision-instruct-onnx
 
-git clone https://huggingface.co/microsoft/Phi-3-mini-128k-instruct-onnx
+git clone https://huggingface.co/microsoft/Phi-3.5-mini-instruct-onnx
 
 cd ../02.ONNXRuntime/01.WebGPUChatRAG
 

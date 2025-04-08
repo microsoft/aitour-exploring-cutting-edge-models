@@ -110,6 +110,7 @@ This training repository is divided in to the following sections:
 |------------------- | ---- |
 | [Spanish](https://aka.ms/AAs8yt1) | 2024.09.10 | 
 | [Portuguese](https://aka.ms/AAs96i6) | 2024.09.10| 
+| [Korean](https://aka.ms/AAv6bt9) | 2025.04.08  |
 
 ## Deployment / Preparation
 

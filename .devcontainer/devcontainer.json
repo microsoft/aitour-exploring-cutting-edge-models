@@ -6,7 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
     "postCreateCommand": "bash ./.devcontainer/setup.sh",
 	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:3": {},
 		"ghcr.io/nikiforovall/devcontainer-features/dotnet-aspire:1": {},
 		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {},
 		"ghcr.io/devcontainers/features/node:1": {}
